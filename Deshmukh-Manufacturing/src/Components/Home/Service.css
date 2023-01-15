@@ -1,0 +1,51 @@
+#services {
+}
+
+.service-box {
+  display: flex;
+  width: 90%;
+  gap: 2%;
+  margin: auto;
+}
+.service-card {
+  border: 1px solid black;
+  width: 40%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.service-img-div {
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.on-img-div {
+  position: absolute;
+  top: 40%;
+  align-items: center;
+  /* border: 1px solid red; */
+  display: flex;
+  left: 35%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: var(--prewhite);
+}
+.service-img-div > img {
+  width: 100%;
+  display: block;
+  transition: transform 1s;
+  position: relative;
+  filter: contrast(70%) brightness(50%);
+}
+
+.service-img-div:hover img {
+  transform: scale(1.1);
+}
+
+.service-infobox {
+  width: 100%;
+  height: auto;
+}
