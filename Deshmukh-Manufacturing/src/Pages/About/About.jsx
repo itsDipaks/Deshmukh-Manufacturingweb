@@ -1,13 +1,17 @@
-import { Typography } from '@mui/material'
 import React from 'react'
+import Aboutintro from '../../Components/AboutCompo/Aboutintro'
+import ContactForm from '../../Components/ContactForm'
 
 const About = () => {
   return (
     <>
-      
-      <Typography variant="h1" sm component="h2">
-  h1. Heading
-</Typography>;
+<Aboutintro/>
+
+
+{/* ----------Contact section ---------- */}
+    
+    <ContactForm/>
+    
     </>
   )
 }

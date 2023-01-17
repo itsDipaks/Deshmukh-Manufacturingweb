@@ -3,6 +3,7 @@ import "./Homepage.css";
 import backgraundimag from "../../assets/Backgraundintroimage.jpg";
 import ProductSwiper from "../../Components/Home/ProductSwiper";
 import OurServices from "../../Components/Home/Services";
+import Aboutintro from "../../Components/AboutCompo/Aboutintro";
 const Homepage = () => {
   return (
     <div id="homepage">
@@ -16,31 +17,22 @@ const Homepage = () => {
         <h1>
           WELCOME TO <span>DESHMUKH MANUFACTURING </span> PVT LTD.
         </h1>
-        <p>
-          DESHMUKH MANUFACTURIN has been manufacturing premium quality carbide
-          products, through current advancements and imaginative creation
-          measures. With ceaseless R & D exercises HTC produces a wide scope of
-          phenomenal carbide items, both standard and customized as per clients'
-          various requirements. Item quality and cycle productivity are
-          constantly checked as per the strictest global principles.
-        </p>
+
         <button>View More</button>
       </div>
 
+   <Aboutintro/>
 
-{/* -----------------OUR SERVICES------------- */}
-<OurServices/>
+      {/* -----------------OUR SERVICES------------- */}
+      <OurServices />
 
-
-{/* -------------------OUR PRODUCTS------------------ */}
-<div className="products-div">
-
-  <h1>Our Products</h1>
-<ProductSwiper/>
-</div>
-
-
-
+      {/* -------------------OUR PRODUCTS------------------ */}
+      <div>
+        <h1 className="text-4xl  antialiased  mb-8 font-semibold">
+          Our Products
+        </h1>
+        {/* <ProductSwiper /> */}
+      </div>
     </div>
   );
 };

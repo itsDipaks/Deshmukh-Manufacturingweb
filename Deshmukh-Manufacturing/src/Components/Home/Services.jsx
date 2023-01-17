@@ -28,18 +28,18 @@ function OurServices() {
     },
   ];
   return (
-    <div id="services">
-      <h1>OUR SERVICES</h1>
+    <div id="services" className=" py-24 mx-auto " >
+      <h1  className="text-4xl  antialiased  mb-8 font-semibold">OUR SERVICES</h1>
 
-      <div className="service-box">
+      <div className="flex gap-2  flex-wrap bg-red-400   mx-auto px-9 ">
         {ServicesData &&
           ServicesData.map((el) => (
-            <div key={el.service_no} className="service-card">
+            <div key={el.service_no} className="w-1/4  sm:w-2/5 border-2  xl:w-1/4  lg:w-1/4  md:w-2/5 xs:w-4/5 mx-auto">
               <div className="service-img-div">
                 <img src={el.imag} alt="carbide" />
                 <div className="on-img-div">
-                  <h2>{el.imagtitle}</h2>
-                  <button>View More</button>
+                  <h2  className="text-2xl">{el.imagtitle}</h2>
+                  <button className="px-2 m-5">View More</button>
                 </div>
               </div>
 

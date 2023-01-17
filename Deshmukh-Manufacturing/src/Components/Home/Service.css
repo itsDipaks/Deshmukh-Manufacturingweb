@@ -1,18 +1,20 @@
 #services {
+  width: 100%;
 }
 
-.service-box {
+/* .service-box1 {
   display: flex;
+  flex-wrap: wrap;
   width: 90%;
-  gap: 2%;
+  row-gap: 2%;
   margin: auto;
-}
-.service-card {
+} */
+/* .service-card1 {
   border: 1px solid black;
-  width: 40%;
+  width: 20%;
   margin: auto;
   cursor: pointer;
-}
+} */
 
 .service-img-div {
   width: 100%;
@@ -28,7 +30,7 @@
   align-items: center;
   /* border: 1px solid red; */
   display: flex;
-  left: 35%;
+  left: 30%;
   flex-direction: column;
   justify-content: space-evenly;
   color: var(--prewhite);
