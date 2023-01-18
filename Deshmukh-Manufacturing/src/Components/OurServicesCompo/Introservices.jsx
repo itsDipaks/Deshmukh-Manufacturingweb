@@ -9,7 +9,7 @@ const Introservices = ({data}) => {
   <div class="container px-1 py-5 mx-auto flex flex-wrap">
     <div class="lg:w-full mx-auto h-auto">
       <div class="flex flex-wrap w-full bg-gray-400 py-28 px-10 relative mb-4 border rounded-3xl">
-        <img alt="gallery" class="w-full object-cover h-full object-center border rounded-3xl block  opacity-25 absolute inset-0" src={data.introimg}/>
+        <img alt="gallery" class="w-full object-cover h-full object-center border rounded-3xl block  opacity-45 absolute inset-0" src={data.introimg}/>
         <div class="text-center relative z-10 w-full">
           <h1 class="text-4xl text-gray-900 font-medium title-font mb-2">{data.title}</h1>
           <p class="leading-relaxed text-grey-400">{data.description}</p>

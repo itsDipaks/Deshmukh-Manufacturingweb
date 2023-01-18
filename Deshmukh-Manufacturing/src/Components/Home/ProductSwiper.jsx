@@ -16,8 +16,8 @@ export default function ProductSwiper() {
   return (
     <>
       <Swiper
-        slidesPerView={5}
-        spaceBetween={30}
+        slidesPerView={4}
+        spaceBetween={40}
         freeMode={true}
         pagination={{
           clickable: true,
@@ -25,15 +25,49 @@ export default function ProductSwiper() {
         modules={[FreeMode, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="http://htcarb.com/assets/img/HeadingPallets.jpg" alt=""/><h1>Dipak Pawar</h1></SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <div>
+          <img src="http://htcarb.com/assets/img/HeadingPallets.jpg" alt=""/>
+          <h1>TC BUSH</h1>
+         
+          </div></SwiperSlide>
+        <SwiperSlide>
+          <div>
+          <img src="http://htcarb.com/assets/img/HeadingPallets.jpg" alt=""/>
+          <h1>TC BUSH</h1>
+         
+          </div></SwiperSlide>
+        <SwiperSlide>
+          <div>
+          <img src="http://htcarb.com/assets/img/HeadingPallets.jpg" alt=""/>
+          <h1>TC BUSH</h1>
+         
+          </div></SwiperSlide>
+        <SwiperSlide>
+          <div>
+          <img src="http://htcarb.com/assets/img/HeadingPallets.jpg" alt=""/>
+          <h1>TC BUSH</h1>
+         
+          </div></SwiperSlide>
+        <SwiperSlide>
+          <div>
+          <img src="http://htcarb.com/assets/img/HeadingPallets.jpg" alt=""/>
+          <h1>TC BUSH</h1>
+         
+          </div></SwiperSlide>
+        <SwiperSlide>
+          <div>
+          <img src="http://htcarb.com/assets/img/HeadingPallets.jpg" alt=""/>
+          <h1>TC BUSH</h1>
+         
+          </div></SwiperSlide>
+        <SwiperSlide>
+          <div>
+          <img src="http://htcarb.com/assets/img/HeadingPallets.jpg" alt=""/>
+          <h1>TC BUSH</h1>
+         
+          </div></SwiperSlide>
+       
       </Swiper>
     </>
   );

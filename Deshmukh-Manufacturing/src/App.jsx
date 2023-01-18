@@ -1,23 +1,17 @@
-import Navbar from "./Components/Navbar"
 import CombineRoutes from "./Routes/CombineRoutes"
 import "./App.css"
 import Footer from "./Components/Footer"
-import Example from "./Components/Nav2"
-// import Nav2 from "./Components/Nav2"
-// import Footer from "./Components/Footer"
-// import Nav2 from "./Components/Nav2"
+import Navbar from "./Components/Navbar"
+import AutoSlider from "./Components/AutoSlider"
 function App() {
 
   return (
     <div className="App">
-       {/* <Navbar/> */}
-       {/* <Nav2/> */}
-       {/* <Nav2/> */}
        {/* <Example/> */}
+       {/* <Navbar/>
      <CombineRoutes/>
-     <Footer/>
-     {/* <Footer/> */}
-     {/* <Footer/> */}
+     <Footer/> */}
+     <AutoSlider/>
     </div>
   )
 }

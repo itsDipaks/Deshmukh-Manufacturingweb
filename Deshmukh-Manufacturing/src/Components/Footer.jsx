@@ -1,54 +1,60 @@
 // import { Box, Container } from '@mui/material'
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { MdCall, MdEmail, MdLocationOn } from 'react-icons/md';
+import {IoLogoWhatsapp } from 'react-icons/io';
 const Footer = () => {
   return (
     <div id='Fotter'>
       
-      <footer className="text-gray-600 body-font bg-black">
+      <footer className="text-white body-font w-full bg-black border-y-2">
   <div className="container px-5 py-4 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-96 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-      {/* <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span className="ml-3 text-xl">Tailblocks</span>
-      </a>
-      <p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p> */}
+    <div className="w-96 xs:w-full flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+
+    <h2 className="title-font font-medium text-red-800 tracking-widest text-sm mb-3">CONTACT DETAILS</h2>
+    <div className="list-none mb-4 border-1 w-full  ">
+          <li className="list-none m-3  " >
+           <Link to="/"><p className='flex items-center '><MdLocationOn className='text-red-400 w-10 h-14 '/><span className=' ml-4'>   02, Shri Alankar Society, Above Bharat Band, Datta Mandir Stop, Nashik Road, Nashik, Maharashtra 422101</span></p>  </Link>
+          </li>
+          <li className="list-none m-3" >
+           <Link to="/"><p className='flex items-center '><MdEmail className='text-red-400 w-4 h-8'/>  <span className='ml-4'>@deshmukhmanufacturing</span></p>  </Link>
+          </li>
+          <li className="list-none m-3" >
+           <Link to="/"><p className='flex items-center '> <MdCall className='text-red-400 w-4 h-8'/>  <span className='ml-4'>+91 8600405446</span></p>  </Link>
+          </li>
+         
+        </div>
+
     </div>
     <div className="flex-grow flex flex-wrap justify-between md:pl-20 mb-1 md:mt-0 mt-10 md:text-center text-center">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4 ">
-        <h2 className="title-font font-bold  text-gray-900 tracking-widest text-sm mb-3 underline decoration-solid">QUICK LINKS</h2>
+        <h2 className="title-font font-bold   text-red-800 tracking-widest text-sm mb-3 underline decoration-solid ">QUICK LINKS</h2>
         <div className="list-none ">
           <li className="list-none m-2">
-          <Link to="/"> <a className="text-gray-600 hover:text-gray-800">Home</a></Link>
+          <Link to="/"> <a className="text-white hover:text-gray-800">Home</a></Link>
           </li>
           <li className="list-none m-2">
-          <Link to="/about"> <a className="text-gray-600 hover:text-gray-800">About</a></Link>
+          <Link to="/about"> <a className="text-white hover:text-gray-800">About</a></Link>
           </li>
           <li className="list-none m-2">
-          <Link to="/services">  <a className="text-gray-600 hover:text-gray-800">Services</a></Link>
+          <Link to="/services">  <a className="text-white hover:text-gray-800">Services</a></Link>
           </li>
-          {/* <li>
-            <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li> */}
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 w-full px-4 ">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SERVICES</h2>
-        <div className="list-none mb-5">
+        <h2 className="title-font font-medium text-red-800 tracking-widest text-sm mb-3">SERVICES</h2>
+        <div className="list-none mb-5 ">
           <li className="list-none m-3" >
-           <Link to="/tipper"> <a className="text-gray-600 hover:text-red-800">Tipper</a></Link>
+           <Link to="/tipper"> <a className="text-white hover:text-red-800 text-white">Tipper</a></Link>
           </li>
           <li className="list-none m-3">
-          <Link to="/bulker"> <a className="text-gray-600 hover:text-gray-800">Bulker</a></Link>
+          <Link to="/bulker"> <a className="text-white hover:text-gray-800">Bulker</a></Link>
           </li>
           <li className="list-none m-3">
-          <Link to="/carbide">  <a className="text-gray-600 hover:text-gray-800"> Tungsten-Carbide</a></Link>
+          <Link to="/carbide">  <a className="text-white hover:text-gray-800"> Tungsten-Carbide</a></Link>
           </li>
           <li className="list-none m-3 mb-4">
-          <Link to="/fabrication">  <a className="text-gray-600 hover:text-gray-800">Fabrication</a></Link>
+          <Link to="/fabrication">  <a className="text-white hover:text-gray-800">Fabrication</a></Link>
           </li>
         </div>
       </div>
@@ -57,10 +63,13 @@ const Footer = () => {
 
 
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">FOLLOW US</h2>
-        <span className="flex  sm:ml-auto sm:mt-0 mt-2 justify-between sm:justify-start border-4">
+        <h2 className="title-font font-medium  text-red-800 tracking-widest text-sm mb-3">FOLLOW US</h2>
+        <div className=" mb-5 flex  justify-between mt-14">
+       <MdEmail className='h-6  w-1/2'/>
+       <IoLogoWhatsapp className='h-6  w-1/2'/>
+       <MdCall className='h-6  w-1/2'/>
+        </div>
        
-      </span>
       </div>
     </div>
   </div>
@@ -68,10 +77,10 @@ const Footer = () => {
 
 
 
-  <div className="bg-gray-100">
+  <div className="bg-gray-800 ">
     <div className="container mx-auto py-2 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p className="text-gray-500 text-sm text-center sm:text-left">@ Develope and created by Dipak Pawar
-        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@DevelopWithDipak</a>
+      <p className="text-gray-500 text-xm text-center sm:text-left text-white">@ Develope and created by Dipak Pawar
+        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@DevelopWithDipak</a>
       </p>
     
     </div>
