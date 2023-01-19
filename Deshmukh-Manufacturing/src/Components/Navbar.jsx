@@ -16,10 +16,10 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-black  xs:w-full sticky top-0 z-10" >
+    <Disclosure as="nav" className="bg-black  xs:w-full sticky top-0 z-10 " >
       {({open}) => (
         <>
-          <div className="mx-auto w-full xs:w-full px-2 sm:px-6 lg:px-8 border-2">
+          <div className="mx-auto w-full xs:w-full px-2 sm:px-6 lg:px-8 border-b-2">
             <div className="relative flex h-16 w-full items-center xl:justify-between ">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}

@@ -8,9 +8,7 @@ import Homeintro from "../../Components/Home/Homeintro";
 const Homepage = () => {
   return (
     <div id="homepage">
-{/* <Homeintro/> */}
-{/* <Hslider/> */}
-
+<Homeintro/>
       <WelcomeSection/>
 
       {/* -----------------OUR SERVICES------------- */}

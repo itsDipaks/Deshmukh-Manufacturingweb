@@ -1,66 +1,89 @@
-import React from 'react'
-
+import React from "react";
 function Homeintro() {
   return (
-    <div className='bg-black'>
-        
-        <div className="min-h-screen flex flex-col text-white">
-			<main className="container mx-auto px-6 pt-16 flex-1 text-center">
-
-				<h2 className="text-2xl md:text-4xl lg:text-6xl uppercase">Welcome to</h2>
-				<h1 className="text-3xl md:text-6xl lg:text-8xl uppercase font-black mb-8">The coding club</h1>
-
-				<p className="text-base md:text-lg lg:text-2xl mb-8">A place for developers to code in peace without those pesky project managers!</p>
-
-				<div className="text-lg md:text-2xl lg:text-3xl py-2 px-4 md:py-4 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full">
-					943,245 members
-				</div>
-
-				<form 
-					action="https://www.getrevue.co/profile/tyler_potts_/add_subscriber" 
-					method="post" 
-					id="revue-form"
-					name="revue-form"
-					target="_blank">
-
-					<div className="flex flex-col md:flex-row justify-center mb-4">
-						<input
-							placeholder="Your email address..."
-							type="email"
-							name="member[email]"
-							id="member_email"
-							className="text-2xl placeholder:text-gray-400 placeholder:italic py-4 px-6 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 focus:bg-opacity-20 duration-150 md:rounded-tr-none md:rounded-br-none rounded-full outline-none mb-4 md:mb-0"
-						/>
-						<input
-							type="submit"
-							value="Join Today"
-							name="member[subscribe]"
-							id="member_submit"
-							className="bg-primary md:rounded-tl-none md:rounded-bl-none rounded-full text-2xl py-4 px-6 md:px-10 lg:py-6 lg:px-12 font-bold uppercase cursor-pointer hover:opacity-75 duration-150"
-						/>
-					</div>
-
-					<div className="opacity-75 italic">
-						By subscribing, you agree with Revue's <a target="_blank" href="https://www.getrevue.co/terms" className="hover:opacity-80 duration-150">Terms of Service</a> and <a target="_blank" href="https://www.getrevue.co/privacy" className="hover:opacity-80 duration-150">Privacy Policy</a>.
-					</div>
-
-				</form>
-			</main>
-
-			<footer className="container mx-auto p-6">
-				<div className="flex flex-col md:flex-row items-center justify-between">
-					<p className="mb-4 md:mb-0 md:text-xl">Built with 💖 by Tyler Potts</p>
-
-					<div className="flex -mx-6">
-						<a href="#" className="mx-3 hover:opacity-80 duration-150">About us</a> | 
-						<a href="#" className="mx-3 hover:opacity-80 duration-150">Privacy</a> | 
-						<a href="#" className="mx-3 hover:opacity-80 duration-150">Contact</a>
-					</div>
-				</div>
-			</footer>
-		</div>
-    </div>
-  )
+    <>
+      <div className="flex justify-center bg-black xs:py-4 py-24">
+        <div className="flex flex-col items-center justify-center">
+          <div  className="flex flex-col   max-w-7xl justify-center items-center space-y-3 w-full ">
+            {/* <div className="flex flex-col   md:items-start items-center justify-center  space-y-3 px-8 text-center ">
+              <div className="text-3xl md:text-7xl font-bold ">
+                Make Your Fashion Look More Charming
+              </div>
+            </div> */}
+            <div className="flex flex-col lg:flex-row space-x-2 space-y-3 md:space-x-6   w-full items-center justify-center ">
+              <div className="lg:w-40 w-64 h-40 xs:hidden overflow-hidden rounded-xl ">
+                <img
+                  src="https://images.unsplash.com/photo-1524514587686-e2909d726e9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdlYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+                                    
+                                                            "
+                  alt=""
+                  className=""
+                />
+              </div>
+              <div className="flex flex-row lg:flex-col space-x-3 space-y-6 items-center justify-center">
+                <div className="w-32 lg:w-40 h-32 xs:hidden overflow-hidden rounded-xl ">
+                  <img
+                    src="https://media.istockphoto.com/id/172249811/photo/blueprint-of-steel-beam.jpg?b=1&s=170667a&w=0&k=20&c=SjSWo4Z2CqvfqmJSAo5Ak-afkuEecOzvEn1uhNJkl40=
+                                    
+                                                                "
+                    alt=""
+                    className=""
+                  />
+                </div>
+                <div className="w-32 lg:w-40 h-48 xs:hidden  overflow-hidden rounded-xl ">
+                  <img
+                    src="https://media.istockphoto.com/id/1047968648/photo/industrial-steel-welder-in-factory.jpg?b=1&s=170667a&w=0&k=20&c=VUjiLf0MulrqyhnJrZXjbQwxMthxlKSZEFq1wwRfAUU=
+                                    
+                                                                "
+                    alt=""
+                    className=""
+                  />
+                </div>
+              </div>
+              <div className="lg:w-full h-96 border-4 object-cover overflow-hidden rounded-xl ">
+                <img 
+                  src="https://images.unsplash.com/photo-1518704618243-b719e5d5f2b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGluZHVzdHJ5JTIwdmVydGljYWwlMjBpbWFnZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+                                    
+                                                            "
+                  alt=""
+                  className="w-full"
+                />
+              </div>
+              <div className="flex flex-row lg:flex-col space-x-3 space-y-6 items-center justify-center ">
+                <div className="w-32 lg:w-40 h-48 xs:hidden overflow-hidden rounded-xl ">
+                  <img
+                    src="https://images.unsplash.com/photo-1585201731775-0597e1be4bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGluZHVzdHJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+                                    
+                                                                "
+                    alt=""
+                    className=""
+                  />
+                </div>
+                <div className="w-32 lg:w-40 h-32 xs:hidden overflow-hidden rounded-xl ">
+                  <img
+                    src="https://media.istockphoto.com/id/1366269092/photo/engineer-technician-designing-drawings-mechanical%C3%A2%C2%A0parts-engineering-engine-manufacturing.jpg?b=1&s=170667a&w=0&k=20&c=Az8eWXNRWrQTE4HuVvoqqgGdXU6GLhdZEvrn8MYHP-8=
+                                    
+                                                                "
+                    alt=""
+                    className=""
+                  />
+                </div>
+              </div>
+              <div className="lg:w-40 w-64 h-40 xs:hidden overflow-hidden rounded-xl ">
+                <img
+                  src="https://images.unsplash.com/photo-1588011930968-eadac80e6a5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGluZHVzdHJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+                                    
+                                                            "
+                  alt=""
+                  className=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Homeintro
+export default Homeintro;
