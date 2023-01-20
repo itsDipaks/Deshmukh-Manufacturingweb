@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const WelcomeSection = () => {
   return (
     <div>
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font"  data-aos="fade-up">
         <div class="container px-5 py-14 mx-auto">
           <div class="flex flex-col text-center w-full mb-10">
             <h2 class="text-xs text-black tracking-widest font-medium title-font mb-1">

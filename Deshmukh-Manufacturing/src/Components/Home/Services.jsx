@@ -25,17 +25,16 @@ function Services() {
     },
   ];
   return (
-    <div id="services" className=" py-24 mx-auto  bg-neutral-800">
-      <h1 className="text-4xl  antialiased   font-semibold   text-white">
-        OUR SERVICES
-      </h1>
-      <span className="inline-block h-1 w-28 rounded bg-red-500 mt-8 mb-20"></span>
+    <>
+ 
+     
+     
       <div className="flex gap-14  flex-wrap  w-full mx-auto px-5 ">
         {ServicesData &&
           ServicesData.map((el) => (
-            <div
+            <div data-aos="fade-up"
               key={el.service_no}
-              className="w-2/3  sm:w-2/3 border-2  xl:w-2/5 lg:w-2/5  md:w-2/5 xs:w-11/12 mx-auto bg-white  shadow-lg"
+              className="w-2/3  sm:w-2/3 border-2 shadow-2xl rounded-3xl xl:w-2/5 lg:w-2/5  md:w-2/5 xs:w-11/12 mx-auto bg-white  shadow-lg"
             >
               <NavLink to={el.link}>
                 <div className="service-img-div">
@@ -60,7 +59,7 @@ function Services() {
             </div>
           ))}
       </div>
-    </div>
+    </>
   );
 }
 

@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const TestNavbar = () => {
   return (
     <div>
-      <div className="flex justify-center bg-black text-white ">
-        <nav className="self-center w-full max-w-7xl  ">
+      <div className="flex justify-center bg-neutral-800 text-white  ">
+        <nav className="self-center w-full max-w-7xl   ">
           <div className="flex md:flex-row flex-col  justify-between items-center md:items-start">
             <h1 className=" py-4 text-2xl font-sans font-bold px-10">
             DM

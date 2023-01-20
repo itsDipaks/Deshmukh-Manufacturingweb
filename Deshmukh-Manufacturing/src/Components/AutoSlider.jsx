@@ -3,7 +3,7 @@ import "./AutoSlider.css"
 const AutoSlider = () => {
   return (
     <div className='slider'>
-        <div className='slider-track'>
+        <div className='slider-track' data-aos="fade-up">
             <div className='slide'>
                 <img src="http://htcarb.com/assets/img/DSinsert.jpg" alt="" />
             </div>

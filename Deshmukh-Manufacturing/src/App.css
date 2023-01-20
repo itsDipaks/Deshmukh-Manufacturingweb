@@ -11,3 +11,13 @@ button:hover{
 background: var(--primary-color);
 color: white;
 }
+
+.loader{
+    /* display: flex; */
+    width: 50%;
+    padding-top: 500px;
+    margin: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
