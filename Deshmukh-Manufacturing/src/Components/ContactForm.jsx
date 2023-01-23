@@ -3,11 +3,11 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <div>
-      <section className="text-gray-400  body-font relative">
+      <section className="text-gray-400  body-font relative"  data-aos="fade-up">
   <div className="container px-1 py-8 mx-auto">
     <div className="flex flex-col text-center w-full mb-12">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">Contact Us</h1>
-      <span className="inline-block h-1 w-32 xs:w-24  rounded bg-red-500 ml-96 xs:ml-28 mb-8 text-center"></span>
+      {/* <span className="inline-block h-1 w-32 xs:w-24  rounded bg-red-500  xs:ml-28 mb-8 text-center"></span> */}
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">

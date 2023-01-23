@@ -7,20 +7,23 @@ const Footer = () => {
   return (
     <div id='Fotter'>
       
-      <footer className="text-white body-font w-full bg-black border-y-2">
+      <footer className="text-white body-font w-full bg-black ">
   <div className="container px-5 py-4 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-96 xs:w-full flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
 
     <h2 className="title-font font-medium text-red-800 tracking-widest text-sm mb-3">CONTACT DETAILS</h2>
     <div className="list-none mb-4 border-1 w-full  ">
-          <li className="list-none m-3  " >
-           <Link to="/"><p className='flex items-center '><MdLocationOn className='text-red-400 w-10 h-14 '/><span className=' ml-4'>   02, Shri Alankar Society, Above Bharat Band, Datta Mandir Stop, Nashik Road, Nashik, Maharashtra 422101</span></p>  </Link>
+          <li className="list-none m-1  " >
+           <Link to="/"><p className='flex items-cente'><MdLocationOn className='text-red-400 w-4 h-8 '/><span className=' ml-4'> K-5,MIDC,Sinnar,dist.Nashik (422113)</span></p>  </Link>
           </li>
-          <li className="list-none m-3" >
-           <Link to="/"><p className='flex items-center '><MdEmail className='text-red-400 w-4 h-8'/>  <span className='ml-4'>@deshmukhmanufacturing</span></p>  </Link>
+          <li className="list-none m-1" >
+           <Link to="/"><p className='flex items-center '><MdEmail className='text-red-400 w-4 h-8'/>  <span className='ml-4'>dmpl1857@gmail.com</span></p>  </Link>
           </li>
-          <li className="list-none m-3" >
-           <Link to="/"><p className='flex items-center '> <MdCall className='text-red-400 w-4 h-8'/>  <span className='ml-4'>+91 8600405446</span></p>  </Link>
+          <li className="list-none m-1" >
+           <Link to="/"><p className='flex items-center '> <MdCall className='text-red-400 w-4 h-8'/>  <span className='ml-4'>+91 8180060462 <span className='text-sm' >- Shubham Deshmukh</span></span></p>  </Link>
+          </li>
+          <li className="list-none m-1" >
+           <Link to="/"><p className='flex items-center '> <MdCall className='text-red-400 w-4 h-8'/>  <span className='ml-4'>+91 9923375826 <span className='text-sm'>- Mukesh Deshmukh</span></span></p>  </Link>
           </li>
          
         </div>

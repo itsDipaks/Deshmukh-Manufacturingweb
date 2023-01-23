@@ -13,7 +13,7 @@ function App() {
 setloading(true)
 setTimeout(()=>{
 setloading(false)
-},4000)
+},2000)
   },[])
   return (
 
@@ -34,6 +34,7 @@ setloading(false)
     <TestNavbar/>
     <CombineRoutes />
     <Footer />
+    
     </div>
     }
       {/* <Navbar /> */}

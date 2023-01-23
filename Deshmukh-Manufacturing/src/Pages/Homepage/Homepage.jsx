@@ -30,7 +30,7 @@ const Homepage = () => {
       </div>
 
       {/* -------------------OUR PRODUCTS------------------ */}
-      <div class="container px-5 py-24 mx-auto">
+      {/* <div class="container px-5 py-24 mx-auto">
       <h1
           className="text-4xl  antialiased   font-semibold  "
           data-aos="fade-up"
@@ -41,16 +41,16 @@ const Homepage = () => {
         <span className="inline-block h-1 w-28 rounded bg-red-500 mt-8 mb-20"    data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"></span>
         <ProductSwiper />
-      </div>
+      </div> */}
 
-      {/* -------------------OUR Clients------------------ */}
-      <div id="services" className=" py-4 mx-auto  bg-neutral-800">
+      {/* -------------------OUR Products slider------------------ */}
+      <div id="services" className=" py-4 mx-auto ">
       <h1
-          className="text-4xl  antialiased   font-semibold text-white"
+          className="text-4xl  antialiased   font-semibold "
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
         >
-          Our Clients
+          Our Products
         </h1>
         <span className="inline-block h-1 w-28 rounded bg-red-500 mt-8 mb-20"    data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"></span>

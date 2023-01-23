@@ -40,6 +40,8 @@ const ServicePage = () => {
         },
       ],
     },
+
+
     {
       title: "Bulker",
       data: [
@@ -110,6 +112,8 @@ const ServicePage = () => {
           ],
         },
       ],
+
+      
     }
    
   ];
@@ -120,13 +124,13 @@ const ServicePage = () => {
         {mydatadata &&
           mydatadata.map((el) => (
             <div className="container px-1 py-0 mx-auto flex flex-wrap items-center m-4">
-              <div className="lg:w-1/2 xs:w-full w-full mb-5 lg:mb-0 rounded-lg overflow-hidden my-1  ">
+              <div className="lg:w-1/2 xs:w-full w-full mb-5 lg:mb-0 rounded-lg overflow-hidden my-1  " data-aos="fade-right">
                 <Hslider
                   senddata={el.data}
                   className="object-cover object-center h-full w-full xs:w-full "
                 />
               </div>
-              <div class="w-1/2 px-4">
+              <div class="w-1/2 px-4" data-aos="fade-left">
                 <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
                   {el.title}
                 </h2>

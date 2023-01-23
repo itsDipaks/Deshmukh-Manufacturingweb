@@ -6,6 +6,7 @@ import Homepage from '../Pages/Homepage/Homepage'
 import CarbideProducts from '../Pages/Productspage/CarbideProducts'
 import VehicalProducts from '../Pages/Productspage/VehicalProducts'
 import ServicePage from '../Pages/ServicePage/ServicePage'
+import SingleProduct from './SingleProduct'
 
 const CombineRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const CombineRoutes = () => {
         <Route path='/services' element={<ServicePage/>}/>
         <Route path='/contact' element={<ContactPage/>}/>
         <Route path='/vehicalprod' element={<VehicalProducts/>}/>
+        <Route path='/vehicalprod/:id' element={<SingleProduct/>}/>
         <Route path='/carbideproducts' element={<CarbideProducts/>}/>
       </Routes>
     </div>

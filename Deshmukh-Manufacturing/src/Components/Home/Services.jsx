@@ -1,13 +1,15 @@
 import React from "react";
 import {Link, NavLink} from "react-router-dom";
 import "./Service.css";
+// import tipperbody from "../../assets/VehicalProducts/Boxbody.png"
+import tipper from "../../assets/VehicalProducts/Tipperbackgraund.jpg"
 function Services() {
   let ServicesData = [
     {
       service_no: 1,
-      imag: "https://media.istockphoto.com/id/1445730299/photo/the-cnc-milling-machine-cutting-injection-mold-part-by-solid-ball-end-mill-tool.jpg?b=1&s=170667a&w=0&k=20&c=HExDoMXS89k215RveHqaxkrt7K8jWXTOblZVraQHZ2A=",
-      imagtitle: "Carbide Products",
-      heading: "Manufacturing Tungstan Carbide",
+      imag: tipper,
+      imagtitle: "Tipper",
+      heading: "Tipper",
       link: "/carbideproducts",
       description:
         "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
@@ -15,9 +17,19 @@ function Services() {
     },
     {
       service_no: 2,
+      imag: "https://media.istockphoto.com/id/1445730299/photo/the-cnc-milling-machine-cutting-injection-mold-part-by-solid-ball-end-mill-tool.jpg?b=1&s=170667a&w=0&k=20&c=HExDoMXS89k215RveHqaxkrt7K8jWXTOblZVraQHZ2A=",
+      imagtitle: "SPM",
+      heading: "SPM",
+      link: "/carbideproducts",
+      description:
+        "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
+      subtitle: "Product 1",
+    },
+    {
+      service_no: 3,
       imag: "https://st2.depositphotos.com/1943809/6114/i/450/depositphotos_61145463-stock-photo-truck-transports-soil-on-the.jpg",
-      imagtitle: "Vehicle Body",
-      heading: "Vehicle Body",
+      imagtitle: "Tungsten Carbide",
+      heading: "Tungsten Carbide",
       link: "/vehicalprod",
       description:
         "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
@@ -32,7 +44,7 @@ function Services() {
       <div className="flex gap-14  flex-wrap  w-full mx-auto px-5 ">
         {ServicesData &&
           ServicesData.map((el) => (
-            <div data-aos="fade-up"
+            <div data-aoS="fade-up"
               key={el.service_no}
               className="w-2/3  sm:w-2/3 border-2 shadow-2xl rounded-3xl xl:w-2/5 lg:w-2/5  md:w-2/5 xs:w-11/12 mx-auto bg-white  shadow-lg"
             >

@@ -5,7 +5,7 @@ const Introservices = ({data}) => {
     <div>
         
 
-        <section class="text-gray-600 body-font "  >
+        <section class="text-gray-600 body-font " data-aos="zoom-out-down" >
   <div class="container px-1 py-5 mx-auto flex flex-wrap">
     <div class="lg:w-full mx-auto h-auto">
       <div class="flex flex-wrap w-full bg-gray-400 py-28 px-10 relative mb-4 border rounded-3xl">
