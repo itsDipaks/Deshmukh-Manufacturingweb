@@ -15,10 +15,12 @@
     "@heroicons/react": "^2.0.13",
     "aos": "^2.3.4",
     "axios": "^1.2.2",
+    "emailjs": "^4.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.6.2",
+    "react-scroll": "^1.8.9",
     "react-spinners": "^0.13.8",
     "swiper": "^8.4.5"
   },

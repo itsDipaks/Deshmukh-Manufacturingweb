@@ -10,7 +10,7 @@ function Services() {
       imag: tipper,
       imagtitle: "Tipper",
       heading: "Tipper",
-      link: "/carbideproducts",
+      link: "/vehicalprod",
       description:
         "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
       subtitle: "Product 1",
@@ -20,21 +20,21 @@ function Services() {
       imag: "https://media.istockphoto.com/id/1445730299/photo/the-cnc-milling-machine-cutting-injection-mold-part-by-solid-ball-end-mill-tool.jpg?b=1&s=170667a&w=0&k=20&c=HExDoMXS89k215RveHqaxkrt7K8jWXTOblZVraQHZ2A=",
       imagtitle: "SPM",
       heading: "SPM",
-      link: "/carbideproducts",
+      link: "/vehicalprod",
       description:
         "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
       subtitle: "Product 1",
     },
-    {
-      service_no: 3,
-      imag: "https://st2.depositphotos.com/1943809/6114/i/450/depositphotos_61145463-stock-photo-truck-transports-soil-on-the.jpg",
-      imagtitle: "Tungsten Carbide",
-      heading: "Tungsten Carbide",
-      link: "/vehicalprod",
-      description:
-        "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
-      subtitle: "Product 2",
-    },
+    // {
+    //   service_no: 3,
+    //   imag: "https://st2.depositphotos.com/1943809/6114/i/450/depositphotos_61145463-stock-photo-truck-transports-soil-on-the.jpg",
+    //   imagtitle: "Tungsten Carbide",
+    //   heading: "Tungsten Carbide",
+    //   link: "/vehicalprod",
+    //   description:
+    //     "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
+    //   subtitle: "Product 2",
+    // },
   ];
   return (
     <>
@@ -57,7 +57,7 @@ function Services() {
                   </div>
                 </div>
               </NavLink>
-              <NavLink to={el.link}>
+              {/* <NavLink to={el.link}>
                 <div className="service-infobox text-start box-border px-6 mb-4">
                   <h2 class="tracking-widest text-indigo-500 text-sm mt-4 font-medium title-font">
                     {el.subtitle}
@@ -67,7 +67,7 @@ function Services() {
                   </h2>
                   <p class="leading-relaxed text-base">{el.description}</p>
                 </div>
-              </NavLink>
+              </NavLink> */}
             </div>
           ))}
       </div>

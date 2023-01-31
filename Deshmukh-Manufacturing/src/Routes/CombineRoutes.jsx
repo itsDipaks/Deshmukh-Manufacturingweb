@@ -3,10 +3,10 @@ import { Route, Routes } from 'react-router-dom'
 import About from '../Pages/About/About'
 import ContactPage from '../Pages/ContactUsPage/ContactPage'
 import Homepage from '../Pages/Homepage/Homepage'
-import CarbideProducts from '../Pages/Productspage/CarbideProducts'
 import VehicalProducts from '../Pages/Productspage/VehicalProducts'
-import ServicePage from '../Pages/ServicePage/ServicePage'
-import SingleProduct from './SingleProduct'
+import BulkerProducts from '../Pages/SubProductsPages/BulkerProducts'
+import TipperProducts from '../Pages/SubProductsPages/TipperProducts'
+import ServicePage from '../Pages/SubProductsPages/TipperProducts'
 
 const CombineRoutes = () => {
   return (
@@ -17,8 +17,8 @@ const CombineRoutes = () => {
         <Route path='/services' element={<ServicePage/>}/>
         <Route path='/contact' element={<ContactPage/>}/>
         <Route path='/vehicalprod' element={<VehicalProducts/>}/>
-        <Route path='/vehicalprod/:id' element={<SingleProduct/>}/>
-        <Route path='/carbideproducts' element={<CarbideProducts/>}/>
+        <Route path='/Tipperproduct' element={<TipperProducts/>}/>
+        <Route path='/bulkerproduct' element={<BulkerProducts/>}/>
       </Routes>
     </div>
   )

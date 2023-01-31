@@ -1,22 +1,34 @@
 import React from "react";
+import { useState } from "react";
 import {IoMdCall} from "react-icons/io";
 import {MdEmail} from "react-icons/md";
 import {Link} from "react-router-dom";
 import "./Navbar.css";
 const TestNavbar = () => {
+  const [nvbsrscroll,setnvbarscroll]=useState(false)
+
+  const onscrollbackgraund=()=>{
+    if(window.scrollY<5){
+      setnvbarscroll(true)
+    }else{
+      setnvbarscroll(false)
+    }
+  }
+  window.addEventListener("scroll",onscrollbackgraund)
   return (
-    <div>
-      <div className="flex justify-center bg-neutral-800 text-white  ">
-        <nav className="self-center w-full max-w-7xl   ">
-          <div className="flex md:flex-row flex-col  justify-between items-center md:items-start">
-            <h1 className=" py-4 text-2xl font-sans font-bold px-10">DM</h1>
-            <ul className="flex justify-center my-4  items-center text-2xl md:text-[18px] md:px-10">
-              <li className="hover:underline  underline-offset-4 decoration-1 decoration-white py-2 rounded-lg px-2 md:px-5">
+    <>
+      <div className="flex justify-center w-full  text-black ">
+        <nav className= {nvbsrscroll?"self-center w-full max-w-full text-white  font-bold fixed bg-transparent top-0 z-10 "
+        :"self-center w-full transition-colors duration-200 ease-in-out	 max-w-full  bg-gradient-to-t from-gray-900 to-gray-600 text-white font-bold  fixed  top-0 z-10"}>
+          <div className="flex md:flex-row flex-col border-b  justify-between items-center md:items-start">
+            <h1 className=" py-1 text-2xl font-sans font-bold">DM</h1>
+            <ul className="py-1 flex justify-between my-1  items-center text-2xl w-1/3 xs:w-full xs:text-lg xs:px-4 md:text-[18px] md:px-2">
+              <li className="underline-offset-4 decoration-2 backdrop-blur-sm border-box border relative decoration-white  rounded-lg px-2 md:px-2" >
                 <Link to="/">
                   <a href="#">Home</a>
-                </Link>
+                </Link> 
               </li>
-              <li className="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-2 md:px-5">
+              <li className="hover:border-red border-box border relative backdrop-blur-sm  underline-offset-4 decoration-2 decoration-white  rounded-lg px-1 md:px-2">
                 <Link to="/about">
                   {" "}
                   <a href="#">About</a>
@@ -24,15 +36,15 @@ const TestNavbar = () => {
               </li>
 
               {/* -------------Service Dropdawon------------- */}
-              <div id="servicelist">
+              {/* <div id="servicelist">
                 <li className="  underline-offset-4 decoration-2 relative decoration-white py-2 rounded-lg px-2 md:px-5">
                   <Link to="/services">
                     <a href="#">Services</a>
                   </Link>
-                </li>
+                </li> */}
 
                 {/* -----menue box------- */}
-                <div
+                {/* <div
                   id="listblock"
                   className="absolute  w-auto top-14  text-center "
                 >
@@ -44,7 +56,7 @@ const TestNavbar = () => {
                       <li className="lists" id="smpitem">
                         SPM
                       </li>
-                    </Link>
+                    </Link> */}
                     {/* <div className="spmdiv">
                       <ul>
                         <li>Spacial Puspose Machine</li>
@@ -52,16 +64,16 @@ const TestNavbar = () => {
                         <li>Conveur System</li>
                       </ul>
                     </div> */}
-                    <Link to="/vehicalprod">
+                    {/* <Link to="/vehicalprod">
                       <li className="lists">Tunsten Carbide</li>
                     </Link>
                   </ul>
                 </div>
-              </div>
+              </div> */}
 
               <div id="servicelist">
-                <li className="underline-offset-4 decoration-2 relative decoration-white py-2 rounded-lg px-2 md:px-5">
-                  <Link to="/services">
+                <li className="underline-offset-6 decoration-2 border-box border backdrop-blur-sm relative decoration-white  rounded-lg px-2 md:px-2">
+                  <Link to="/vehicalprod">
                     <a href="#">Products</a>
                   </Link>
                 </li>
@@ -69,9 +81,9 @@ const TestNavbar = () => {
                 {/* -----menue box------- */}
                 <div
                   id="listblock"
-                  className="absolute  w-auto top-14  text-center "
+                  className="absolute  w-auto top-10  text-center "
                 >
-                  <ul>
+                  <ul >
                     <Link to="/vehicalprod">
                       {" "}
                       <li className="lists">Box Tipper</li>
@@ -80,9 +92,9 @@ const TestNavbar = () => {
                       {" "}
                       <li className="lists">Rock Tipper</li>
                     </Link>
-                    <Link to="/carbideproducts">
+                    <Link to="/vehicalprod">
                       {" "}
-                      <li className="lists">RMC</li>
+                      <li className="lists">Garbage Body</li>
                     </Link>
                     <Link to="/vehicalprod">
                       {" "}
@@ -90,12 +102,9 @@ const TestNavbar = () => {
                     </Link>
                     <Link to="/vehicalprod">
                       {" "}
-                      <li className="lists">Tanker</li>
+                      <li className="lists">RMC</li>
                     </Link>
-                    <Link to="/carbideproducts">
-                      {" "}
-                      <li className="lists">Tunsten Carbide</li>
-                    </Link>
+                 
                   </ul>
                 </div>
               </div>
@@ -122,7 +131,7 @@ const TestNavbar = () => {
                   </ul>
                 </div>
               </div> */}
-              <li className="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-2 md:px-5">
+              <li className="underline-offset-4 decoration-2 border-box border relative backdrop-blur-sm decoration-white  rounded-lg px-2 md:px-2">
                 <Link to="/contact">
                   <a href="#">Contact Us</a>
                 </Link>
@@ -136,7 +145,7 @@ const TestNavbar = () => {
           </div>
         </nav>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,0 +1,9 @@
+.iconbox{
+    position: fixed;
+bottom:5rem;
+right:2rem;
+}
+.whatsappimg{
+    width: 50px;
+    cursor: pointer;
+}

@@ -1,31 +1,29 @@
 import React from "react";
 import Aboutintro from "../../Components/AboutCompo/Aboutintro";
-import ContactForm from "../../Components/ContactForm";
 import Listingdata from "../../Components/AboutCompo/Listingdata";
-import MapEmbeded from "../../Components/MapEmbeded";
 import Content from "../../Components/AboutCompo/Content";
+import TestNavbar from "../../Components/TestNavbar";
 
 const About = () => {
   const Basicdata = [
     {title: "Nature of Business", info: "Manufacturer"},
-    {title: "Company CEO", info: "Mukesh Deshmukh"},
+    {title: "Director", info: "Mukesh Deshmukh"},
     {title: "Registered Address", info: "K-5,MIDC,Sinnar,dist.Nashik (422113)"},
-    {title: "Total Number of Employees", info: "4"},
-    {title: "Year of Establishment", info: "2015"},
+    {title: "Total Number of Employees", info: "12"},
+    {title: "Year of Establishment", info: "2007"},
     {
       title: "Legal Status of Firm",
-      info: "Private Limited Company (Ltd./Pvt.Ltd.)",
+      info: "Private Limited Company",
     },
   ];
 
   const infrastructure = [
-    {title: "Location Type", info: "URBAN"},
+    {title: "Location Type", info: "Industrial Area"},
     {title: "Building Infrastructure", info: "Permanent"},
-    {title: "Size of Premises", info: "1200 square feet"},
-    {title: "Space Around", info: "Front porch"},
+    {title: "Size of Premises", info: "10500 square feet"},
+    {title: "Space Around", info: "Left porch"},
   ];
   const Statutoryprofile = [
-    {title: "Tan No.", info: "NSKA0*****"},
     {title: "Banker", info: "BANK OF BARODA"},
     {title: "GST No.", info: ""},
     {title: "CIN No.", info: ""},
@@ -59,12 +57,9 @@ const About = () => {
   };
 
   return (
-    <>
+    <div>
       {/* ----------About intro section ---------- */}
       <Aboutintro />
-
-
-
       {/* --------- Basic Info----------- */}
       <div className="text-left  mb-14  w-auto ">
         <h1
@@ -76,8 +71,6 @@ const About = () => {
         </h1>
         <Listingdata Data={Basicdata} />
       </div>
-
-
 
       {/* --------- infrastructure Info----------- */}
       <div className="text-left  mb-14  w-auto">
@@ -91,8 +84,6 @@ const About = () => {
         <Listingdata Data={infrastructure} />
       </div>
 
-
-
       {/* --------- Statutory Profile----------- */}
       <div className="text-left  mb-14  w-auto">
         <h1
@@ -105,35 +96,16 @@ const About = () => {
         <Listingdata Data={Statutoryprofile} />
       </div>
 
-
-
       {/* --------- Our team----------- */}
       <div className="text-left  mb-14  w-auto">
         <Content data={ourTeam} />
       </div>
 
-
-
       {/* --------- Why Us----------- */}
       <div className="text-left  mb-14  w-auto">
         <Content data={Whyus} />
       </div>
-
-
-
-      {/* ----------Map section ---------- */}
-      <div className="text-center   w-auto">
-        <h1
-          className="sm:text-3xl text-2xl font-medium title-font mb-1 text-black"
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"
-        >
-          Location
-        </h1>
-        <span className="inline-block h-1 w-44 rounded bg-red-500 mt-1 mb-8"></span>
-        <MapEmbeded className="border-4  " />
-      </div>
-    </>
+    </div>
   );
 };
 

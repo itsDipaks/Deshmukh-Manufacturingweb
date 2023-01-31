@@ -5,6 +5,8 @@ import Footer from "./Components/Footer";
 import TestNavbar from "./Components/TestNavbar";
 import { useEffect, useState } from "react";
 import HashLoader from "react-spinners/HashLoader";
+import Modal from "./Components/ProductModel";
+import Whatsapp from "./Components/Whatsapp";
 
 function App() {
   const [loading,setloading]=useState(true)
@@ -31,10 +33,11 @@ setloading(false)
       />
     :
     <div>
-    <TestNavbar/>
+    <TestNavbar />
     <CombineRoutes />
+    <Whatsapp/>
     <Footer />
-    
+  
     </div>
     }
       {/* <Navbar /> */}

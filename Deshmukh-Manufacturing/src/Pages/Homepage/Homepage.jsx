@@ -1,22 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Homepage.css";
 import WelcomeSection from "../../Components/Home/WelcomeSection";
 import Services from "../../Components/Home/Services";
 import ProductSwiper from "../../Components/Home/ProductSwiper";
-import Homeintro from "../../Components/Home/Homeintro";
+import Homeintro from "../../Components/Home/Homeintro/Homeintro";
 import AutoSlider from "../../Components/AutoSlider";
+import ScrollDown from "../../Components/Home/OnscrollAnimate/ScrollDown";
+import TestNavbar from "../../Components/TestNavbar";
+import Onchangenavbar from "../../Components/OnchangeNavbar";
 // import Hslider from "../../Components/Home/Hslider";
 const Homepage = () => {
+  const [nvbsrscroll,setnvbarscroll]=useState(false)
+
+  const onscrollbackgraund=()=>{
+    if(window.scrollY>100){
+      setnvbarscroll(false)
+    }else{
+      setnvbarscroll(true)
+    }
+  }
+  window.addEventListener("scroll",onscrollbackgraund)
   return (
-    <div id="homepage">
+    <div id="homepage"  >
+     
+ {/* <TestNavbar /> */}
+  {/* {  nvbsrscroll?  <Onchangenavbar/>:""} */}
+      
       <Homeintro />
-
+<ScrollDown/>
       {/* -------------------Our Info------------------ */}
-
+      <div id="services" className="h-full ">
       <WelcomeSection />
+      </div>
 
       {/* -----------------OUR SERVICES------------- */}
-      <div id="services" className=" py-24 mx-auto  bg-neutral-800">
+      <div id="services" className=" py-24 mx-auto bg-gradient-to-t from-gray-900 to-gray-600">
         <h1
           className="text-4xl  antialiased   font-semibold   text-white"
           data-aos="fade-up"
