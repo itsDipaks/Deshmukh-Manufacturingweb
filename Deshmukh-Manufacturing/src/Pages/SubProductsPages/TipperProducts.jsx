@@ -61,10 +61,10 @@ const TipperProducts = () => {
 
   return (
     <div>
-      <section className="text-gray-600 body-font   ">
+      <section className="text-gray-600 body-font w-full  mt-20">
         {mydatadata &&
           mydatadata.map((el) => (
-            <div className="container px-1 py-0 mx-auto flex flex-wrap items-center m-4">
+            <div className=" px-1 py-2 mx-auto w-full bg-gradient-to-t from-red-400 to-white  flex flex-wrap items-center m-4 ">
               <div className="lg:w-1/2 xs:w-full w-full mb-5 lg:mb-0 rounded-lg overflow-hidden my-1  " data-aos="fade-right">
                 <Hslider
                   senddata={el.data}

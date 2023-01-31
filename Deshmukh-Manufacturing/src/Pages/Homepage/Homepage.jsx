@@ -34,9 +34,9 @@ const Homepage = () => {
       </div>
 
       {/* -----------------OUR SERVICES------------- */}
-      <div id="services" className=" py-24 mx-auto bg-gradient-to-t from-gray-900 to-gray-600">
+      <div id="services" className=" py-24 mx-auto bg-gradient-to-t from-black to-white ">
         <h1
-          className="text-4xl  antialiased   font-semibold   text-white"
+          className="text-4xl  antialiased   font-semibold   text-black"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
         >

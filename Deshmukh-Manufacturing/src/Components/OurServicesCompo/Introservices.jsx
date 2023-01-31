@@ -1,11 +1,10 @@
 import React from 'react'
-import AutoSlider from '../AutoSlider'
-import Hslider from '../Home/Hslider'
+import backimg from "../Home/Homeintro/Vehicalintroimage.jpg"
 
-const Introservices = ({data}) => {
+const Introservices = () => {
   return (
-    <div className="bg-black pt-24">
- <img src="" alt="" />
+    <div className="pt-20 xs:pt-28  ">
+ <img src={backimg} alt="backgrauund imag" />
     </div>
   )
 }

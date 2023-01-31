@@ -7,9 +7,9 @@ const WelcomeSection = () => {
       <section class="text-gray-600 body-font "  >
         <div class="container px-5 py-4 mx-auto ">
           <div class="flex flex-col text-center w-full mb-10 ">
-            <h2 class="text-xs text-black tracking-widest font-medium title-font mb-1">
+            {/* <h2 class="text-xs text-black tracking-widest font-medium title-font mb-1">
               MANUFACTURING
-            </h2>
+            </h2> */}
             <h1 class="xs:text-2xl sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">
               Welcome To{" "}
               <span className="text-red-400"> Deshmukh Manufacturing Private Limited</span>

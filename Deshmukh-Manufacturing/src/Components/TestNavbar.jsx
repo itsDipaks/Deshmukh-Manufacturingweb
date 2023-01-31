@@ -17,18 +17,18 @@ const TestNavbar = () => {
   window.addEventListener("scroll",onscrollbackgraund)
   return (
     <>
-      <div className="flex justify-center w-full  text-black ">
-        <nav className= {nvbsrscroll?"self-center w-full max-w-full text-white  font-bold fixed bg-transparent top-0 z-10 "
-        :"self-center w-full transition-colors duration-200 ease-in-out	 max-w-full  bg-gradient-to-t from-gray-900 to-gray-600 text-white font-bold  fixed  top-0 z-10"}>
-          <div className="flex md:flex-row flex-col border-b  justify-between items-center md:items-start">
+      <div className="flex justify-center w-full  ">
+        <nav className= {nvbsrscroll?"self-center w-full max-w-full text-red-400 font-semibold fixed bg-transparent top-0 z-10 "
+        :"self-center w-full transition-colors duration-200 ease-in-out	 max-w-full  bg-neutral-100 text-black font-semibold  fixed  top-0 z-10"}>
+          <div className="flex md:flex-row flex-col py-2 justify-between items-center md:items-start">
             <h1 className=" py-1 text-2xl font-sans font-bold">DM</h1>
-            <ul className="py-1 flex justify-between my-1  items-center text-2xl w-1/3 xs:w-full xs:text-lg xs:px-4 md:text-[18px] md:px-2">
-              <li className="underline-offset-4 decoration-2 backdrop-blur-sm border-box border relative decoration-white  rounded-lg px-2 md:px-2" >
+            <ul className="py-1 flex justify-between my-1  items-center text-2xl w-2/5 xs:w-full xs:text-lg xs:px-4 md:text-[18px] md:px-2">
+              <li className="underline-offset-4 tracking-widest  relative  rounded-lg px-2 md:px-2" >
                 <Link to="/">
                   <a href="#">Home</a>
                 </Link> 
               </li>
-              <li className="hover:border-red border-box border relative backdrop-blur-sm  underline-offset-4 decoration-2 decoration-white  rounded-lg px-1 md:px-2">
+              <li className="underline-offset-4  relative tracking-widest  rounded-lg px-2 md:px-2">
                 <Link to="/about">
                   {" "}
                   <a href="#">About</a>
@@ -72,7 +72,7 @@ const TestNavbar = () => {
               </div> */}
 
               <div id="servicelist">
-                <li className="underline-offset-6 decoration-2 border-box border backdrop-blur-sm relative decoration-white  rounded-lg px-2 md:px-2">
+                <li className="underline-offset-4  relative tracking-widest rounded-lg px-2 md:px-2">
                   <Link to="/vehicalprod">
                     <a href="#">Products</a>
                   </Link>
@@ -131,7 +131,7 @@ const TestNavbar = () => {
                   </ul>
                 </div>
               </div> */}
-              <li className="underline-offset-4 decoration-2 border-box border relative backdrop-blur-sm decoration-white  rounded-lg px-2 md:px-2">
+              <li className="underline-offset-2 tracking-widest  relative  rounded-lg px-2 md:px-2">
                 <Link to="/contact">
                   <a href="#">Contact Us</a>
                 </Link>
