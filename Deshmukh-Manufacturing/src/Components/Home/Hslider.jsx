@@ -27,7 +27,7 @@ console.log(showdata)
   };
 
   return (
-    <div className='max-w-[1080px] h-[420px] w-full m-auto py-4 px-2 relative group '>
+    <div className='max-w-[1080px] h-[420px] xs:h-[240px] w-full m-auto py-4 px-2 relative group '>
       <div
         style={{ backgroundImage: `url(${showdata[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500 border-4'

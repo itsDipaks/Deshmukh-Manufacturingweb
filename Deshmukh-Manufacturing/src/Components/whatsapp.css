@@ -7,3 +7,16 @@ right:2rem;
     width: 50px;
     cursor: pointer;
 }
+
+@media (300px <= width <=600px){
+
+    .iconbox{
+        position: fixed;
+    bottom:2rem;
+    left:1rem;
+    }
+    .whatsappimg{
+        width: 50px;
+        cursor: pointer;
+    }
+}

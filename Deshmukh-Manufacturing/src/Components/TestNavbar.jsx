@@ -22,7 +22,7 @@ const TestNavbar = () => {
         :"self-center w-full transition-colors duration-200 ease-in-out	 max-w-full  bg-neutral-100 text-black font-semibold  fixed  top-0 z-10"}>
           <div className="flex md:flex-row flex-col py-2 justify-between items-center md:items-start">
             <h1 className=" py-1 text-2xl font-sans font-bold">DM</h1>
-            <ul className="py-1 flex justify-between my-1  items-center text-2xl w-2/5 xs:w-full xs:text-lg xs:px-4 md:text-[18px] md:px-2">
+            <ul className="py-1 flex justify-between my-1  items-center text-2xl w-2/5 xs:w-full xs:text-sm xs:px-4 md:text-[18px] md:px-2">
               <li className="underline-offset-4 tracking-widest  relative  rounded-lg px-2 md:px-2" >
                 <Link to="/">
                   <a href="#">Home</a>
