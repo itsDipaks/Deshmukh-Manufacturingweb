@@ -15,16 +15,16 @@ function Services() {
         "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
       subtitle: "Product 1",
     },
-    {
-      service_no: 2,
-      imag: "https://media.istockphoto.com/id/1445730299/photo/the-cnc-milling-machine-cutting-injection-mold-part-by-solid-ball-end-mill-tool.jpg?b=1&s=170667a&w=0&k=20&c=HExDoMXS89k215RveHqaxkrt7K8jWXTOblZVraQHZ2A=",
-      imagtitle: "SPM",
-      heading: "SPM",
-      link: "/vehicalprod",
-      description:
-        "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
-      subtitle: "Product 1",
-    },
+    // {
+    //   service_no: 2,
+    //   imag: "https://media.istockphoto.com/id/1445730299/photo/the-cnc-milling-machine-cutting-injection-mold-part-by-solid-ball-end-mill-tool.jpg?b=1&s=170667a&w=0&k=20&c=HExDoMXS89k215RveHqaxkrt7K8jWXTOblZVraQHZ2A=",
+    //   imagtitle: "SPM",
+    //   heading: "SPM",
+    //   link: "/vehicalprod",
+    //   description:
+    //     "Tungsten carbide is the number one choice in manufacturing for lathe machines and automatic machines. Basic Carbide provides less stock on you preforms which greatly reduces machine cycle times.",
+    //   subtitle: "Product 1",
+    // },
     // {
     //   service_no: 3,
     //   imag: "https://st2.depositphotos.com/1943809/6114/i/450/depositphotos_61145463-stock-photo-truck-transports-soil-on-the.jpg",
@@ -46,7 +46,7 @@ function Services() {
           ServicesData.map((el) => (
             <div data-aoS="fade-up"
               key={el.service_no}
-              className="w-2/3  sm:w-2/3 border-2 shadow-2xl rounded-3xl xl:w-2/5 lg:w-2/5  md:w-2/5 xs:w-11/12 mx-auto bg-white  shadow-lg"
+              className="w-2/3  sm:w-2/3 xs:w-full border-2 shadow-2xl rounded-3xl xl:w-2/5 lg:w-2/5  md:w-2/5 xs:w-11/12 mx-auto bg-white  shadow-lg"
             >
               <NavLink to={el.link}>
                 <div className="service-img-div">
