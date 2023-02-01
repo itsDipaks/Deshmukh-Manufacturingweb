@@ -29,20 +29,20 @@ const Homepage = () => {
       <Homeintro />
 <ScrollDown/>
       {/* -------------------Our Info------------------ */}
-      <div id="services" className="h-full ">
+      <div id="services" className="h-full w-full ">
       <WelcomeSection />
       </div>
 
       {/* -----------------OUR SERVICES------------- */}
-      <div id="services" className=" py-24 mx-auto bg-gradient-to-t from-black to-white ">
+      <div id="services" className=" py-24 xs:py-14 mx-auto bg-gradient-to-t from-black to-white ">
         <h1
-          className="text-4xl  antialiased   font-semibold   text-black"
+          className="text-4xl xs:text-2xl antialiased   font-semibold   text-black"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
         >
           OUR SERVICES
         </h1>
-        <span className="inline-block h-1 w-28 rounded bg-red-500 mt-8 mb-20"    data-aos="fade-up"
+        <span className="inline-block h-1 w-28 rounded bg-red-500 mt-4 mb-20"    data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"></span>
         <Services />
       </div>
@@ -62,15 +62,15 @@ const Homepage = () => {
       </div> */}
 
       {/* -------------------OUR Products slider------------------ */}
-      <div id="services" className=" py-4 mx-auto ">
+      <div id="services" className=" py-14 mx-auto ">
       <h1
-          className="text-4xl  antialiased   font-semibold "
+          className="text-4xl  antialiased  xs:text-2xl  font-semibold "
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
         >
           Our Products
         </h1>
-        <span className="inline-block h-1 w-28 rounded bg-red-500 mt-8 mb-20"    data-aos="fade-up"
+        <span className="inline-block h-1 w-28 rounded bg-red-500 mt-4 mb-14"    data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"></span>
         <AutoSlider />
       </div>

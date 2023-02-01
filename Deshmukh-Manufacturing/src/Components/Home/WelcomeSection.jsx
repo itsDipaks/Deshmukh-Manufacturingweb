@@ -10,11 +10,11 @@ const WelcomeSection = () => {
             {/* <h2 class="text-xs text-black tracking-widest font-medium title-font mb-1">
               MANUFACTURING
             </h2> */}
-            <h1 class="xs:text-2xl sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">
+            <h1 class="xs:text-xl sm:text-3xl text-3xl font-medium title-font mb-4  text-gray-900">
               Welcome To{" "}
               <span className="text-red-400"> Deshmukh Manufacturing Private Limited</span>
             </h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base" >
+            <p class="lg:w-2/3 xs:w-full mx-auto leading-relaxed text-base xs:text-sm" >
               <span className="text-red-800"> DESHMUKH MANUFACTURING Private Limited. (DMPL),</span>{" "}
              are in the business of fabricating custom
               equipments for Automobile and construction sector industries, like
@@ -23,7 +23,7 @@ const WelcomeSection = () => {
               a 17 years of experience, we offer comprehensive fabrication and
               Engineering services by providing custom & tailor made equipments.
             </p>
-           <button class="flex mx-auto mt-4 text-whitebg-transparent border-1 py-1 px-8 focus:outline-none hover:bg-red-500 rounded text-lg"> <Link to="/about">Know More </Link></button>
+           <button class="flex mx-auto mt-4 xs:px-2 xs:text-sm  text-whitebg-transparent border-1 py-1 px-8 focus:outline-none hover:bg-red-500 rounded text-lg"> <Link to="/about">Know More </Link></button>
           </div> 
           
         </div>

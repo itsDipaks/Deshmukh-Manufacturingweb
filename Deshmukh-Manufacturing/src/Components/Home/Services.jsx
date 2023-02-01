@@ -41,7 +41,7 @@ function Services() {
  
      
      
-      <div className="flex gap-14  flex-wrap  w-full mx-auto px-5 ">
+      <div className="flex gap-8  flex-wrap  w-full mx-auto px-2 ">
         {ServicesData &&
           ServicesData.map((el) => (
             <div data-aoS="fade-up"

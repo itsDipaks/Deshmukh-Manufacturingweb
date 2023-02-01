@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div id='Fotter'>
       
-      <footer className="text-white body-font w-full bg-black ">
+      <footer className="text-white body-font w-full  bg-gradient-to-t from-slate-800 to-black ">
   <div className="container px-5 py-4 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-96 xs:w-full flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
 

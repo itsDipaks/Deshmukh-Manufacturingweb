@@ -44,9 +44,10 @@ const VehicalProducts = () => {
 
   return (
     <div >
+<div className='bg-black p-14 xs:pt-14 xs:p-2'>
 
 <Introservices  />
-
+</div>
         <section className="text-gray-600 body-font bg-white">
   <div className="container px-5 py-14 mx-auto">
     <div className="flex flex-wrap -m-4">

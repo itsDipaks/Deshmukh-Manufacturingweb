@@ -63,7 +63,7 @@ const About = () => {
       {/* --------- Basic Info----------- */}
       <div className="text-left  mb-14  w-auto ">
         <h1
-          className="sm:text-3xl text-2xl font-medium title-font ml-44 xs:text-lg xs:ml-4 mb-5 text-black"
+          className="sm:text-3xl text-2xl font-medium title-font ml-44 mt-14 xs:text-lg xs:ml-4 mb-5 text-black"
           data-aos-anchor-placement="center-bottom"
           data-aos="fade-right"
         >

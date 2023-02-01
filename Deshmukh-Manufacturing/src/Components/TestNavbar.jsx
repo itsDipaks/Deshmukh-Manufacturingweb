@@ -17,8 +17,8 @@ const TestNavbar = () => {
   window.addEventListener("scroll",onscrollbackgraund)
   return (
     <>
-      <div className="flex justify-center w-full  ">
-        <nav className= {nvbsrscroll?"self-center w-full max-w-full text-red-400 font-semibold fixed bg-transparent top-0 z-10 "
+      <div className="flex justify-center  w-full  ">
+        <nav className= {nvbsrscroll?"self-center w-full border-b max-w-full text-red-400 font-semibold fixed bg-transparent top-0 z-10 "
         :"self-center w-full transition-colors duration-200 ease-in-out	 max-w-full  bg-neutral-100 text-black font-semibold  fixed  top-0 z-10"}>
           <div className="flex md:flex-row flex-col py-2 justify-between items-center md:items-start">
             <h1 className=" py-1 text-2xl font-sans font-bold">DM</h1>
