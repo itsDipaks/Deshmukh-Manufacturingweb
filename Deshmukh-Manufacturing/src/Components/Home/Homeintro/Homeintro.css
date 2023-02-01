@@ -57,18 +57,14 @@ background-color: rgb(0, 0, 0,0.65);
     color: rgb(255, 255, 255);
 }
 .knowmorebtn{
-    position: absolute;
     top: 22rem;
-    color: rgb(255, 255, 255);
     left: 45%;
     padding: 0.31rem 2rem ;
-    cursor: pointer;
     font-size: 1rem;
-    background: tomato;
- border-radius: 15px;  
 }
 
-@media (300px <= width <=600px){
+
+/* @media (300px <= width <=659px){
     .first-line{
         font-size: 1.2rem;
         top: 14rem;
@@ -87,10 +83,45 @@ background-color: rgb(0, 0, 0,0.65);
     .introbox{
         height: 60vh;
     }
+} */
+
+
+@media (300px<= width <=768px){
+
+    .first-line{
+        font-size: 1.2rem;
+        top: 12rem;
+    left: 35%;
+    }
+    .main-title{
+        top: 14rem;
+        left: 20%;
+        font-size: 2.5em;  
+    }
+  
+    .introbox{
+        height: 60vh;
+    }
+    .knowmorebtn{
+        position: absolute;
+        top:18.5rem;
+        color: rgb(255, 255, 255);
+        left: 35%;
+        padding: 0.31rem 1rem ;
+        cursor: pointer;
+        font-size: 0.9rem;
+        background: tomato;
+     border-radius: 15px;  
+    }
+    .introbox{
+        width: 100%;
+        height: 85vh;
+    width: 100%;
+    filter: blur(0.5px);
+    }
 }
 /* .bottomsvg{
     position: absolute;
     bottom: -85px;
     height: 50%;
 } */
-

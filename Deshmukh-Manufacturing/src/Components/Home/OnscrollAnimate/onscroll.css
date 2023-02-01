@@ -52,3 +52,14 @@
         opacity: 0;
     }
 }
+
+@media (300px <= width <=600px){
+
+    .scrolldown{
+        position: absolute;
+        left: 45%;
+        width: 20px ;
+        height: 20px;
+        top: 510px;
+    }
+}
