@@ -69,11 +69,14 @@ const Footer = () => {
 
 
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font font-medium  text-red-800 tracking-widest text-sm mb-3 underline decoration-solid">FOLLOW US</h2>
-        <div className=" mb-5 flex  justify-between mt-14">
-       <MdEmail className='h-6  w-1/2'/>
-       <IoLogoWhatsapp className='h-6  w-1/2'/>
-       <MdCall className='h-6  w-1/2'/>
+        <h2 className="title-font font-medium  text-red-800 tracking-widest text-sm mb-3 underline decoration-solid">CONTACT US ON</h2>
+        <div className=" mb-5 flex xs:w-11/12 xs:m-auto justify-between mt-14">
+          <a href=""> <MdEmail className='h-6  w-full'/></a>
+          <a href="https://wa.me/918180060462"> <IoLogoWhatsapp className='h-6  w-full'/></a>
+          <a href="tel:+918180060462">  <MdCall className='h-6  w-full'/></a>
+     
+       {/* <IoLogoWhatsapp className='h-6  w-1/2'/>
+       <MdCall className='h-6  w-1/2'/> */}
         </div>
        
       </div>

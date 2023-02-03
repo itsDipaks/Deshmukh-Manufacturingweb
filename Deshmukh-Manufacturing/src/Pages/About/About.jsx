@@ -1,14 +1,19 @@
-import React from "react";
-import Aboutintro from "../../Components/AboutCompo/Aboutintro";
-import Listingdata from "../../Components/AboutCompo/Listingdata";
-import Content from "../../Components/AboutCompo/Content";
-import TestNavbar from "../../Components/TestNavbar";
+import React, { useEffect } from "react";
+import Aboutintro from "../../Components/Page-AboutCompo/Aboutintro";
+import Listingdata from "../../Components/Page-AboutCompo/Listingdata";
+import Content from "../../Components/Page-AboutCompo/Content";
 
 const About = () => {
+  const ScrolltoTop = () => {
+    window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+  };
+useEffect(()=>{
+  ScrolltoTop()
+})
   const Basicdata = [
     {title: "Nature of Business", info: "Manufacturer"},
     {title: "Director", info: "Mukesh Deshmukh"},
-    {title: "Registered Address", info: "K-5,MIDC,Sinnar,dist.Nashik (422113)"},
+    {title: "Registered Address", info: "K-5 , MIDC , Sinnar , Dist.Nashik (422113)"},
     {title: "Total Number of Employees", info: "12"},
     {title: "Year of Establishment", info: "2007"},
     {

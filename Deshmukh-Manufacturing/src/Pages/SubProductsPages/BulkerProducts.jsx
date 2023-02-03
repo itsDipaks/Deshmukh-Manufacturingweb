@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hslider from "../../Components/Home/Hslider";
-import OurServicesSlider from "../../Components/OurServicesCompo/OurServicesSlider";
 import bulker1 from "../../assets/VehicalProducts/Bulker//bulker1.jpg"
 import bulker2 from "../../assets/VehicalProducts/Bulker//bulker2.jpg"
 import bulker3 from "../../assets/VehicalProducts/Bulker//bulker3.jpg"
@@ -8,8 +7,13 @@ import bulker4 from "../../assets/VehicalProducts/Bulker//bulker4.jpg"
 import bulker5 from "../../assets/VehicalProducts/Bulker//bulker5.jpg"
 import "./SubProducts.css";
 const BulkerProducts = () => {
+  const ScrolltoTop = () => {
+    window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+  };
+useEffect(()=>{
+  ScrolltoTop()
+})
   const mydatadata = [
-
     {
         title: "Bulker",
         data: [
@@ -51,18 +55,18 @@ const BulkerProducts = () => {
                 />
               </div>
               <div class="w-1/2 px-4 xs:w-full" >
-                <h2 class="text-2xl font-medium  text-red-400 xs:text-xl title-font mb-2">
+                <h2 class="text-2xl font-medium  text-white xs:text-xl title-font mb-2">
                   {el.title}
                 </h2>
-                <p class="leading-relaxed text-white xs:text-sm">
+                {/* <p class="leading-relaxed text-white xs:text-sm">
                   Glossier echo park pug, church-key sartorial biodiesel
                   vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
                   moon party messenger bag selfies, poke vaporware kombucha
                   lumbersexual pork belly polaroid hoodie portland craft beer.
-                </p>
+                </p> */}
 
-                <p className="flex items-center text-white"><span className="font-semibold text-red-400  p-2">Material :  </span> <span>Vehicle products </span></p>
-                <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Size Aprox  :  </span> <span>Vehicle products </span></p>
+                <p className="flex items-center text-white"><span className="font-semibold text-red-400  p-2">Material :  </span> <span> </span></p>
+                <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Size Aprox  :  </span> <span></span></p>
               </div>
             </div>
           ))}

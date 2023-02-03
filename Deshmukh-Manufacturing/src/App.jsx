@@ -1,13 +1,11 @@
 import CombineRoutes from "./Routes/CombineRoutes";
 import "./App.css";
-import Footer from "./Components/Footer";
-// import Navbar from "./Components/Navbar";
-import TestNavbar from "./Components/TestNavbar";
+import TestNavbar from "./Components/NavbarC/TestNavbar";
 import { useEffect, useState } from "react";
 import HashLoader from "react-spinners/HashLoader";
-import Modal from "./Components/ProductModel";
-import Whatsapp from "./Components/Whatsapp";
-
+import Whatsapp from "./Components/Whatsapp/Whatsapp";
+import Footer from "./Components/Footer/Footer"
+import ScrolltoTop from "./Components/ScrollToTop/ScrolltoTop";
 function App() {
   const [loading,setloading]=useState(true)
 
@@ -21,7 +19,7 @@ setloading(false)
 
 
     <div className="App">
-      {loading ? 
+      {loading ?
       
       <HashLoader
       className="loader"
@@ -33,10 +31,11 @@ setloading(false)
       />
     :
     <div>
-    <TestNavbar />
+    <TestNavbar/>
     <CombineRoutes />
     <Whatsapp/>
-    <Footer />
+    <ScrolltoTop/>
+    <Footer/>
   
     </div>
     }

@@ -8,7 +8,7 @@ const WhatsappEmailDisplay = () => {
         <img className="w-10 xs:w-8 " src={whatsappicon} alt="" />
         <h2 className="ml-8 xs:ml-2 xs:text-sm  text-white">Connect On Whatsapp</h2>
 </a>
-      <div className="flex w-2/5 xs:w-1/2 items-center rounded-xl border xs:p-1 xs:text-sm p-4">
+      <div className="flex w-2/5 xs:w-1/2 items-center rounded-xl border xs:p-1 truncate xs:text-sm p-4">
         <img className="w-10 xs:w-8 ml-1" src={emailicon} alt="" />
         <h2 className="ml-8 xs:ml-1 xs:text-sm text-white">dmpl1857@gmail.com</h2>
       </div>

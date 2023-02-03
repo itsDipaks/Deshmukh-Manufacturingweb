@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Introservices from '../../Components/OurServicesCompo/Introservices'
 import introcarbide from "../../assets/CarbideProducts/introcarbide.jpg"
 const CarbideProducts = () => {
+  const ScrolltoTop = () => {
+    window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+  };
+useEffect(()=>{
+  ScrolltoTop()
+})
     const passdata = {
         introimg:introcarbide
         ,title: 'Carbide',

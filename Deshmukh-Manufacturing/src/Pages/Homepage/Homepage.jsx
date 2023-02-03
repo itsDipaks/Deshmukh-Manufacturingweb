@@ -2,17 +2,12 @@ import React, { useState } from "react";
 import "./Homepage.css";
 import WelcomeSection from "../../Components/Home/WelcomeSection";
 import Services from "../../Components/Home/Services";
-import ProductSwiper from "../../Components/Home/ProductSwiper";
 import Homeintro from "../../Components/Home/Homeintro/Homeintro";
-import AutoSlider from "../../Components/AutoSlider";
+import AutoSlider from "../../Components/Autoslider/AutoSlider";
 import ScrollDown from "../../Components/Home/OnscrollAnimate/ScrollDown";
-import TestNavbar from "../../Components/TestNavbar";
-import Onchangenavbar from "../../Components/OnchangeNavbar";
-// import Hslider from "../../Components/Home/Hslider";
 const Homepage = () => {
   const [nvbsrscroll,setnvbarscroll]=useState(false)
-
-  const onscrollbackgraund=()=>{
+const onscrollbackgraund=()=>{
     if(window.scrollY>100){
       setnvbarscroll(false)
     }else{

@@ -48,15 +48,15 @@ function Services() {
               key={el.service_no}
               className="w-2/3  sm:w-2/3 xs:w-full border-2 shadow-2xl rounded-3xl xl:w-2/5 lg:w-2/5  md:w-2/5 xs:w-11/12 mx-auto bg-white  shadow-lg"
             >
-              <NavLink to={el.link}>
+              <Link to={el.link}>
                 <div className="service-img-div">
                   <img src={el.imag} alt="carbide" />
                   <div className="on-img-div">
                     <h2 className="text-4xl xs:text-2xl font-serif">{el.imagtitle}</h2>
-                    <button className="px-4 py-2 m-5 xs:px-1 xs:py-1">View More</button>
+                    <button className="px-4 py-2 m-5 xs:px-1 xs:py-1">View Products</button>
                   </div>
                 </div>
-              </NavLink>
+              </Link>
               {/* <NavLink to={el.link}>
                 <div className="service-infobox text-start box-border px-6 mb-4">
                   <h2 class="tracking-widest text-indigo-500 text-sm mt-4 font-medium title-font">

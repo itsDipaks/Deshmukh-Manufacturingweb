@@ -1,17 +1,22 @@
 import React, { useState } from 'react'
-import Introservices from '../../Components/OurServicesCompo/Introservices'
+import Introservices from '../../Components/Page-OurServicesCompo/Introservices'
 import boxbody from "../../assets/VehicalProducts/BoxBodytipper/Boxbody2.jpg"
 import rocktipper from "../../assets/VehicalProducts/Rockbody/Rockbody1.jpg"
 import bulker from "../../assets/VehicalProducts/Bulker/Bulker2.jpg"
-// import pageintroimg from "../../assets/VehicalProducts/Vehicalintroimage.jpg"
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 const VehicalProducts = () => {
     // const passdata = {
     //     introimg:pageintroimg
     //     ,title: 'Vehical Body',
     //     description: 'Your component library for ...',
     //   };
-
+    const ScrolltoTop = () => {
+      window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+    };
+  useEffect(()=>{
+    ScrolltoTop()
+  })
       const productsinfo=[
         {id:1,
         productname:"Box Body Tipper",

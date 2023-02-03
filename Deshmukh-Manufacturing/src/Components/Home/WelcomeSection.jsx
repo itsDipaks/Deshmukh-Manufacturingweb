@@ -15,7 +15,7 @@ const WelcomeSection = () => {
               <span className="text-red-400"> Deshmukh Manufacturing Private Limited</span>
             </h1>
             <p class="lg:w-2/3 xs:w-full mx-auto leading-relaxed text-base xs:text-sm" >
-              <span className="text-red-800"> DESHMUKH MANUFACTURING Private Limited. (DMPL),</span>{" "}
+              <span className="text-red-800"> DESHMUKH MANUFACTURING PRIVATE LIMITED.(DMPL),</span>{" "}
              are in the business of fabricating custom
               equipments for Automobile and construction sector industries, like
               Material handling, And Also in Tungsten Carbide Industry We have a

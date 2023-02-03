@@ -1,10 +1,10 @@
 import React from 'react'
 import "./AutoSlider.css"
-import Rocktippr from "../assets/VehicalProducts/Rockbody/rockbody2.png"
-import boxtipper from "../assets/VehicalProducts/BoxBodytipper/Boxbody2.jpg"
-import Bulker from "../assets/VehicalProducts/Bulker/Bulker3.jpg"
-import Transitmixer from "../assets/VehicalProducts/AutoSliderproducts/Transitmixier.webp"
-import tanker from "../assets/VehicalProducts/AutoSliderproducts/Tanker.webp"
+import Rocktippr from "../../assets/VehicalProducts/Rockbody/rockbody2.png"
+import boxtipper from "../../assets/VehicalProducts/BoxBodytipper/Boxbody2.jpg"
+import Bulker from "../../assets/VehicalProducts/Bulker/Bulker3.jpg"
+import Transitmixer from "../../assets/VehicalProducts/AutoSliderproducts/Transitmixier.webp"
+import tanker from "../../assets/VehicalProducts/AutoSliderproducts/Tanker.webp"
 
 const AutoSlider = () => {
   return (

@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Displaynumber from "../../Components/Contact Compo/Displaynumber";
 import WhatsappEmailDisplay from "../../Components/Contact Compo/WhatsappEmailDisplay";
-import ContactForm from "../../Components/ContactForm";
-import MapEmbeded from "../../Components/MapEmbeded";
+import ContactForm from "../../Components/C-form/ContactForm";
+import MapEmbeded from "../../Components/Map/MapEmbeded";
 const ContactPage = () => {
+  const ScrolltoTop = () => {
+    window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+  };
+useEffect(()=>{
+  ScrolltoTop()
+})
   return (
     <div className=" ">
       <div className="h-auto pt-36 pb-32  flex-col align-middle justifiy-center bg-gradient-to-t from-slate-800 to-black">

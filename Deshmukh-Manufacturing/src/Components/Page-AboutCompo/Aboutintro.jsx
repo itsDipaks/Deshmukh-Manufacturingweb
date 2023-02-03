@@ -28,7 +28,7 @@ const Aboutintro = () => {
               We
               <span className="text-red-800">
                 {" "}
-                DESHMUKH MANUFACTURIN Private Limited. (DMPL)
+                DESHMUKH MANUFACTURIN PRIVATE LIMITED. (DMPL)
               </span>{" "}
               , are in the business of fabricating custom equipments for
               Automobile and construction sector industries, like Material
