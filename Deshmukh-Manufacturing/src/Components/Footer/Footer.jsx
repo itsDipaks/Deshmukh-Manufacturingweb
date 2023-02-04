@@ -8,22 +8,22 @@ const Footer = () => {
     <div id='Fotter'>
       
       <footer className="text-white body-font w-full  bg-gradient-to-t from-slate-800 to-black ">
-  <div className="container px-5 py-4 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-96 xs:w-full flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+  <div className=" px-5 py-4 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap xs:w-full xs:px-0 flex-col">
+    <div className="w-96 flex-shrink-0 md:mx-0 mx-auto text-center xs:text-left xs:w-full md:text-left">
 
-    <h2 className="title-font font-medium text-red-800 tracking-widest text-sm mb-3 underline decoration-solid">CONTACT DETAILS</h2>
-    <div className="list-none mb-4 border-1 w-full  ">
+    <h2 className="title-font font-medium text-red-800 tracking-widest text-sm mb-3 underline xs:ml-36  decoration-solid">CONTACT DETAILS</h2>
+    <div className="list-none mb-4 border-1 w-full xs:w-full  ">
           <li className="list-none m-1  " >
-           <Link to="/"><p className='flex items-cente xs:w-80'><MdLocationOn className='text-red-400 w-5 h-8  '/><span className=' ml-4'> K-5,MIDC,Sinnar,dist.Nashik (422113)</span></p>  </Link>
+           <Link to="/"><p className='flex items-cente xs:w-full xs:pl-14'><MdLocationOn className='text-red-400 w-5 h-8  '/><span className=' ml-4'> K-5,MIDC,Sinnar,Dist.Nashik ,MH(422113)</span></p>  </Link>
           </li>
           <li className="list-none m-1" >
-           <Link to="/"><p className='flex items-center  xs:w-80 '><MdEmail className='text-red-400 w-4 h-8'/>  <span className='ml-4'>dmpl1857@gmail.com</span></p>  </Link>
+           <Link to="/"><p className='flex items-center  xs:w-full xs:pl-14'><MdEmail className='text-red-400 w-4 h-8'/>  <span className='ml-4'>dmpl1857@gmail.com</span></p>  </Link>
           </li>
           <li className="list-none m-1" >
-           <Link to="/"><p className='flex items-center  xs:w-80'> <MdCall className='text-red-400 w-4 h-8'/>  <span className='ml-4'>+91 8180060462 <span className='text-sm' >- Shubham Deshmukh</span></span></p>  </Link>
+           <Link to="/"><p className='flex items-center  xs:w-full xs:pl-14'> <MdCall className='text-red-400 w-4 h-8'/>  <span className='ml-4'>+91 8180060462 <span className='text-sm' >- Shubham Deshmukh</span></span></p>  </Link>
           </li>
           <li className="list-none m-1" >
-           <Link to="/"><p className='flex items-center  xs:w-80 '> <MdCall className='text-red-400 w-4 h-8'/>  <span className='ml-4'>+91 9923375826 <span className='text-sm'>- Mukesh Deshmukh</span></span></p>  </Link>
+           <Link to="/"><p className='flex items-center  xs:w-full xs:pl-14'> <MdCall className='text-red-400 w-4 h-8'/>  <span className='ml-4'>+91 9923375826 <span className='text-sm'>- Mukesh Deshmukh</span></span></p>  </Link>
           </li>
          
         </div>
@@ -87,7 +87,7 @@ const Footer = () => {
 
 
   <div className="bg-gray-800 ">
-    <div className="container mx-auto py-2 px-5 flex flex-wrap flex-col xs:flex-row">
+    <div className="container mx-auto py-2 px-5 xxs:px-1 flex flex-wrap flex-col xs:flex-row">
       <p className="text-gray-500 text-xm text-center sm:text-left text-white">@ Develope and created by Dipak Pawar
         <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@DevelopWithDipak</a>
       </p>

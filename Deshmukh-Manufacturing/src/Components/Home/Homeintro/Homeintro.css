@@ -1,8 +1,7 @@
 .introbox{
-    width: 100%;
     height: 90vh;
 background-image: url(Vehicalintroimage.jpg);
-width: 100%;
+width: 100vw;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -40,7 +39,7 @@ background-color: rgb(0, 0, 0,0.45);
     }
 }
 
-.first-line{
+/* .first-line{
     position: absolute;
     color: rgb(255, 255, 255);
     top: 12rem;
@@ -55,17 +54,18 @@ background-color: rgb(0, 0, 0,0.45);
     font-weight: 700;
     font-size: 5rem;  
     color: rgb(255, 255, 255);
-}
+} */
 .knowmorebtn{
-    top: 22rem;
+    top: 12rem;
     left: 45%;
     padding: 0.31rem 2rem ;
     font-size: 1rem;
+    position: absolute;
 }
 
 
 
-@media (300px<= width <=768px){
+@media (250px<= width <=768px){
 
     .first-line{
         font-size: 1.2rem;
@@ -81,24 +81,16 @@ background-color: rgb(0, 0, 0,0.45);
     .introbox{
         height: 60vh;
     }
-    .knowmorebtn{
-        position: absolute;
-        top:20.5rem;
-        color: rgb(255, 255, 255);
-        left: 35%;
-        padding: 0.31rem 1rem ;
-        cursor: pointer;
-        font-size: 0.9rem;
-        background: tomato;
-     border-radius: 15px;  
-    }
+   
     .introbox{
-        width: 100%;
-        height: 80vh;
-    width: 100%;
+        width: 100vw;
+        height: 75vh;
+    /* width: 100%; */
     filter: blur(0.5px);
     }
 }
+
+
 /* .bottomsvg{
     position: absolute;
     bottom: -85px;

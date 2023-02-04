@@ -18,8 +18,8 @@ const TestNavbar = () => {
   return (
     <>
       <div className="flex justify-center  w-full  ">
-        <nav className= {nvbsrscroll?"self-center w-full border-b max-w-full text-red-400 font-semibold fixed bg-transparent top-0 z-10 "
-        :"self-center w-full transition-colors duration-200 ease-in-out	 max-w-full  bg-neutral-100 text-black font-semibold  fixed  top-0 z-10"}>
+        <nav className= {nvbsrscroll?"self-center w-full border-b max-w-full text-red-400 font-semibold fixed bg-transparent top-0 z-10 xs:w-full"
+        :"self-center w-full transition-colors duration-200 ease-in-out	 max-w-full  bg-neutral-100 text-black font-semibold  fixed xs:w-full top-0 z-10"}>
           <div className="flex md:flex-row flex-col py-2 justify-between items-center md:items-start">
             <h1 className=" py-1 text-2xl font-sans text-green-400 font-bold">DM</h1>
             <ul className="py-1 flex justify-between my-1  items-center text-2xl w-2/5 xs:w-full xs:text-sm xs:px-4 md:text-[18px] md:px-2">

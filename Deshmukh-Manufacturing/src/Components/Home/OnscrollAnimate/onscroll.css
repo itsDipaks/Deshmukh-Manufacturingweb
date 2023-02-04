@@ -2,10 +2,10 @@
     /* border: 1px solid red; */
     position: absolute;
     bottom: 0px;
-    left: 50%;
+    left: 51.5%;
     width: 30px ;
     height: 30px;
-    top: 620px;
+    top: 540px;
     cursor: pointer;
     /* background: #fff; */
     transform: translateY(-80px) translateX(50%) rotate(45deg);
@@ -53,13 +53,13 @@
     }
 }
 
-@media (300px <= width <=600px){
+@media (250px <= width <=600px){
 
     .scrolldown{
         position: absolute;
-        left: 45%;
+        left:42%;
         width: 20px ;
         height: 20px;
-        top: 510px;
+        top: 560px;
     }
 }

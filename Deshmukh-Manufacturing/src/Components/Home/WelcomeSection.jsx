@@ -4,8 +4,8 @@ import vector2 from "../../assets/vector2.png"
 const WelcomeSection = () => {
   return (
     <div className="relative ">
-      <section class="text-gray-600 body-font "  >
-        <div class="container px-5 py-4 mx-auto ">
+      <section class="text-gray-600 body-font xs:mt-6"  >
+        <div class=" px-5 py-2 mx-auto ">
           <div class="flex flex-col text-center w-full mb-10 ">
             {/* <h2 class="text-xs text-black tracking-widest font-medium title-font mb-1">
               MANUFACTURING

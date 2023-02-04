@@ -6,7 +6,8 @@ const Whatsapp = () => {
     <div className='iconbox'>
        <a href="https://wa.me/918180060462" target="_blank"> <img src={whatsappicon} className="whatsappimg" alt="" />
        </a>
-    </div>
+
+            </div>
   )
 }
 

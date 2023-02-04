@@ -50,7 +50,7 @@ const Aboutintro = () => {
               </span>
             </p>
             <span className="inline-block h-1 w-72 rounded bg-red-500 mt-8 xs:mt-4 xs:mb-2 mb-6"></span>
-            <p className="text-black"> DIRECTOR</p>
+            <p className="text-gray"> DIRECTOR</p>
             <h2 className=" font-medium title-font text-red-400 tracking-wider text-sm text-white">
               MUKESH DESHMUKH
             </h2>

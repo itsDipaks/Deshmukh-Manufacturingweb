@@ -14,7 +14,7 @@ useEffect(()=>{
     {title: "Nature of Business", info: "Manufacturer"},
     {title: "Director", info: "Mukesh Deshmukh"},
     {title: "Registered Address", info: "K-5 , MIDC , Sinnar , Dist.Nashik (422113)"},
-    {title: "Total Number of Employees", info: "12"},
+    {title: "Total Number of Employees", info: "17"},
     {title: "Year of Establishment", info: "2007"},
     {
       title: "Legal Status of Firm",
@@ -25,12 +25,12 @@ useEffect(()=>{
   const infrastructure = [
     {title: "Location Type", info: "Industrial Area"},
     {title: "Building Infrastructure", info: "Permanent"},
-    {title: "Size of Premises", info: "10500 square feet"},
+    {title: "Size of Premises", info: "1200 square Meeter"},
     {title: "Space Around", info: "Left porch"},
   ];
   const Statutoryprofile = [
     {title: "Banker", info: "BANK OF BARODA"},
-    {title: "GST No.", info: ""},
+    {title: "GST No.", info: "27AAFCD2852F1ZS"},
     {title: "CIN No.", info: ""},
   ];
 

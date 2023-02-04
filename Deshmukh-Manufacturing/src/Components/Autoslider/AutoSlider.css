@@ -18,7 +18,7 @@ width: 100%;
     animation: scroll 28s linear infinite;
     display: flex; 
     gap: 15px;
-    width: calc(400px*14);
+    width: calc(300px*14);
 }
 .slide{
     /* border: 1px solid red; */
