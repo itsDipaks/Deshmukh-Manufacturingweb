@@ -37,7 +37,7 @@ const onscrollbackgraund=()=>{
         >
           OUR SERVICES
         </h1>
-        <span className="inline-block h-1 w-28 rounded bg-red-500 mt-4 mb-20"    data-aos="fade-up"
+        <span className="inline-block h-1 w-28 rounded bg-red-500 mt-4 mb-20 xs:mb-4"     data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"></span>
         <Services />
       </div>

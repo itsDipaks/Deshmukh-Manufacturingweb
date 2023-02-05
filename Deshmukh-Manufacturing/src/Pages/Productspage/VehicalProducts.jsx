@@ -5,6 +5,8 @@ import rocktipper from "../../assets/VehicalProducts/Rockbody/Rockbody1.jpg"
 import bulker from "../../assets/VehicalProducts/Bulker/Bulker2.jpg"
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
+import StandardFeture from '../../Components/Page-OurServicesCompo/StandardFeture'
+import ContactToGet from '../../Components/QueteToContact/ContactToGet'
 const VehicalProducts = () => {
     // const passdata = {
     //     introimg:pageintroimg
@@ -22,20 +24,21 @@ const VehicalProducts = () => {
         productname:"Box Body Tipper",
         productimg:boxbody,
         productdescription:"Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
-        ,Linkto:"/Tipperproduct"
+        ,Linkto:"/boxtipper"
       },
         {
           id:2,
         productname:"Rock Body Tipper",
         productimg:rocktipper,
         productdescription:"Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
-        ,Linkto:"/Tipperproduct"
+        ,Linkto:"/rocktipper"
       },
         {
           id:3,
         productname:"Garbage Truck Body",
         productimg:"https://5.imimg.com/data5/SELLER/Default/2022/6/WV/XR/PJ/25059261/hydraulic-refuse-compactor-1000x1000.jpg",
         productdescription:"Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
+        ,Linkto:"/garbagebody"
       },
         {
           id:3,
@@ -53,11 +56,11 @@ const VehicalProducts = () => {
 
 <Introservices  />
 </div>
-        <section className="text-gray-600 body-font bg-white">
-  <div className="container px-1 py-4 mx-auto">
-    <div className="flex flex-wrap -m-4">
+        <section className="text-gray-600 body-font  bg-white">
+  <div className=" px-1 py-4 mx-auto ">
+    <div className="flex flex-wrap -m-4 xs:m-0">
     {productsinfo  && productsinfo.map((el)=>
-    <div className="p-2 md:w-1/3 ">
+    <div className="p-4 md:w-1/3 xs:w-full ">
      <div className="h-full border-2  bg-gradient-to-t from-slate-800 to-black  text-grey-400 border-opacity-60 rounded-lg overflow-hidden p-8 "  data-aos="fade-up">
        <img className="lg:h-48 md:h-full w-full object-cover object-center rounded-2xl" src={el.productimg} alt="blog"/>
        <div className="p-6">
@@ -76,8 +79,21 @@ const VehicalProducts = () => {
 
     </div>
   </div>
+
+
 </section>
 
+
+<div>
+
+  <StandardFeture/>
+</div>
+
+
+<div>
+
+  <ContactToGet/>
+</div>
     </div>
   )
 }

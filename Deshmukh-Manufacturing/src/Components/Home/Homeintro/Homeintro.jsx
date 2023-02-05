@@ -6,8 +6,8 @@ function Homeintro() {
     <>
       <div className="introbox  top-0">
       </div>
-      <p className="absolute text-white top-56 left-1/2 text-9xl sm:text-2xl xs:text-xl xs:left-1/3 xs:top-64">Welcome To</p>
-      <h1 className="absolute text-white top-64 left-1/3 font-bold xs:text-4xl xs:left-12  xs:top-72 text-6xl"> DM  _  T I P P E R </h1>
+      <p className="absolute text-white top-56 left-1/3 text-9xl sm:text-2xl xs:text-xl xs:left-8 xs:top-64">Welcome To</p>
+      <h1 className="absolute text-white top-64 left-1/3 font-bold xs:text-4xl xs:left-8 font-serif xs:top-72 text-6xl"> DM  &nbsp;  T I P P E R </h1>
       {/* <p className="third-line">Private Limited</p> */}
       <button className="absolute top-96 px-6 py-2 left-1/2 text-white xs:left-1/3">Explore</button>
       {/* <svg className="absolute bottom-0 top-80 w-full " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

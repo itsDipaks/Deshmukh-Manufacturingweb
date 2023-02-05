@@ -48,13 +48,19 @@ const Footer = () => {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 w-full px-4 ">
-        <h2 className="title-font font-medium text-red-800 tracking-widest text-sm mb-3 underline decoration-solid">SERVICES</h2>
+        <h2 className="title-font font-medium text-red-800 tracking-widest text-sm mb-3 underline decoration-solid">PRODUCTS</h2>
         <div className="list-none mb-5 ">
           <li className="list-none m-3" >
-           <Link to="/Tipperproduct"> <a className="text-white hover:text-red-800 text-white">Tipper</a></Link>
+           <Link to="/rocktipper"> <a className="text-white hover:text-red-800 text-white">Rock Tipper</a></Link>
+          </li>
+          <li className="list-none m-3">
+          <Link to="/boxtipper"> <a className="text-white hover:text-gray-800">Box Tipper</a></Link>
           </li>
           <li className="list-none m-3">
           <Link to="/bulkerproduct"> <a className="text-white hover:text-gray-800">Bulker</a></Link>
+          </li>
+          <li className="list-none m-3">
+          <Link to="/garbagebody"> <a className="text-white hover:text-gray-800">Garbage Vehicle</a></Link>
           </li>
           {/* <li className="list-none m-3">
           <Link to="/carbide">  <a className="text-white hover:text-gray-800"> Tungsten-Carbide</a></Link>

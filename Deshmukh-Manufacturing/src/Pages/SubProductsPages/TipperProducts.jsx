@@ -88,6 +88,7 @@ useEffect(()=>{
                   lumbersexual pork belly polaroid hoodie portland craft beer.
                 </p> */}
 
+
                 <p className="flex items-center text-white"><span className="font-semibold text-red-400  p-2">Material :  </span> <span> </span></p>
                 <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Size Aprox  :  </span> <span></span></p>
               </div>

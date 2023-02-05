@@ -52,8 +52,8 @@ function Services() {
                 <div className="service-img-div">
                   <img src={el.imag} alt="carbide" />
                   <div className="on-img-div">
-                    <h2 className="text-4xl xs:text-2xl font-serif">{el.imagtitle}</h2>
-                    <button className="px-4 py-2 m-5 xs:px-1 xs:py-1">View Products</button>
+                    <h2 className="text-5xl xs:text-3xl font-serif">{el.imagtitle}</h2>
+                    <button className="px-4 py-2 m-4 xs:px-1 xs:py-1 xs:text-sm ">View Products</button>
                   </div>
                 </div>
               </Link>

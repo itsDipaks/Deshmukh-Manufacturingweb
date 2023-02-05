@@ -30,11 +30,11 @@
 
 .on-img-div {
   position: absolute;
-  top: 40%;
+  top: 30%;
   align-items: center;
   /* border: 1px solid red; */
   display: flex;
-  left:35%;
+  left:32%;
   flex-direction: column;
   justify-content: space-evenly;
   color: var(--prewhite);
@@ -55,4 +55,16 @@
 .service-infobox {
   width: 100%;
   height: auto;
+}
+
+
+
+
+@media (250px<= width <=768px){
+  .on-img-div {
+    top: 30%;
+    align-items: center;
+    left:30%;
+  }
+
 }
