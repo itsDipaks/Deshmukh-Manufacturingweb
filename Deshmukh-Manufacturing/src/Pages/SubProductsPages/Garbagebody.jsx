@@ -76,17 +76,18 @@ useEffect(()=>{
 
   return (
     <div>
-      <section className="text-gray-600 body-font w-full bg-black pt-24 ">
+    <div className="bg-black h-16 xs:h-24"></div>
+    <section className="text-gray-600 body-font w-full  pt-0 ">
         {mydatadata &&
           mydatadata.map((el) => (
-            <div className=" px-4 py-4 mx-auto w-full bg-gradient-to-t from-gray-600 to-black  flex flex-wrap  items-center   ">
+            <div className=" px-4   mx-auto w-11/12 bg-gradient-to-t from-gray-600 to-black  flex flex-wrap rounded-2xl items-center  m-14 ">
               <div className="lg:w-1/2 xs:w-full w-full mb-5 lg:mb-0 rounded-lg overflow-hidden my-1  " data-aos="fade-right">
                 <Hslider
                   senddata={el.data}
                   className="object-cover object-center h-full xs:h-1/2 w-full xs:w-1/2 "
                 />
               </div>
-              <div class="w-1/2 px-4 xs:w-full" >
+              <div class="w-1/2 pb-4 xs:w-full" >
                 <h2 class="text-2xl font-medium  text-white xs:text-xl title-font mb-2">
                   {el.title}
                 </h2>

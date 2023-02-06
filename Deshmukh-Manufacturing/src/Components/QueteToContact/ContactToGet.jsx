@@ -2,7 +2,7 @@ import React from 'react'
 import "./quete.css"
 const ContactToGet = () => {
   return (
-    <div className='mb-14 xs:mb-4 relative'>
+    <div className='mb-14 xs:mb-4 relative' data-aos="zoom-in-up">
       
 
         <div className='backgraundimg'>

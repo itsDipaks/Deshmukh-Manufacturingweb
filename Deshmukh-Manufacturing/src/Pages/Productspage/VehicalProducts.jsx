@@ -52,7 +52,7 @@ const VehicalProducts = () => {
 
   return (
     <div >
-<div className='bg-black p-14 xs:pt-14 xs:p-2'>
+<div className='bg-black p-14 xs:pt-14 xs:p-2' data-aos="fade-up">
 
 <Introservices  />
 </div>
@@ -64,14 +64,14 @@ const VehicalProducts = () => {
      <div className="h-full border-2  bg-gradient-to-t from-slate-800 to-black  text-grey-400 border-opacity-60 rounded-lg overflow-hidden p-8 "  data-aos="fade-up">
        <img className="lg:h-48 md:h-full w-full object-cover object-center rounded-2xl" src={el.productimg} alt="blog"/>
        <div className="p-6">
-         <h1 className="title-font text-2xl font-serif text-white mb-5 mt-5 xs:text-lg tracking-wide font-semibold text-center">{el.productname}</h1>
+         <h1 className="title-font text-2xl font-serif text-white mb-5 mt-5 xs:text-xl tracking-wide font-semibold text-center">{el.productname}</h1>
          {/* <p className="leading-relaxed mb-3">{el.productdescription}</p> */}
          {/* <a class="mt-3 text-red-500 inline-flex items-center cursor-pointer	">View Related Products
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2 cursor-pointer	" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </a> */}
-         <button className='p-1 w-1/2 text-sm m-auto ml-24 bg-red-400 text-black xs:w-full xs:ml-0'> <Link to={el.Linkto} >View Related Products</Link> </button>
+         <button className='p-1  text-sm m-auto ml-24 bg-red-400 text-black xs:w-1/2 xs:ml-14 xs:ml-0'> <Link to={el.Linkto} >View Products</Link> </button>
        </div> 
      </div>
    </div>

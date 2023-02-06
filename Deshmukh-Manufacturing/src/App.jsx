@@ -13,7 +13,7 @@ function App() {
 setloading(true)
 setTimeout(()=>{
 setloading(false)
-},2000)
+},3000)
   },[])
   return (
 
@@ -25,7 +25,7 @@ setloading(false)
       className="loader"
       color="#e94c4c"
         loading={loading}
-        size={40}
+        size={60}
         aria-label="Loading Spinner"
         data-testid="loader"
       />

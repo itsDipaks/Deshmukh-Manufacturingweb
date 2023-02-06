@@ -14,8 +14,8 @@ color: white;
 
 .loader{
     /* display: flex; */
-    width: 50%;
-    padding-top: 500px;
+    width: 100%;
+    padding-top: 50%;
     margin: auto;
     /* justify-content: center; */
     /* align-items: center; */
