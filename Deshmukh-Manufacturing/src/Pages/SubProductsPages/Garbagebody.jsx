@@ -1,12 +1,8 @@
 import React, { useEffect } from "react";
 import Hslider from "../../Components/Home/Hslider";
 
-import Garbage1 from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HANDLING-TIPPERS.png"
-import Garbage2 from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HOPPER 2.png"
-import Garbage3 from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HOPPER 3.png"
-import Garbage4 from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HOPPER 4.png"
-import Garbage5 from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HOPPER 5.png"
-import Garbage6 from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HOPPER.png"
+import Garbage1 from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HOPPER.png"
+import Garbage2 from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HOPPER3.png"
 import "./SubProducts.css";
 const GarbagBodyTipper = () => {
   const ScrolltoTop = () => {
@@ -24,22 +20,14 @@ useEffect(()=>{
             {
               url:Garbage1,
             },
-            {
-              url:Garbage2,
-            },
-            {
-              url:Garbage5,
-            },
-            {
-              url:Garbage4,
-            },
+            
             
            
           ],
         },
       ],
       type:"Garbage Vehicle",
-      Capacity:"",
+      Capacity:"1.5 cum",
       TipperWeight:""
 
     },
@@ -49,24 +37,15 @@ useEffect(()=>{
         {
           imgdata: [
             {
-              url:Garbage6,
-            },
-            {
-              url:Garbage4,
-            },
-            {
-              url:Garbage5,
-            },
-            {
               url:Garbage2,
             },
-            
+           
            
           ],
         },
       ],
       type:"Garbage Vehicle",
-      Capacity:"",
+      Capacity:"2cum",
       TipperWeight:""
 
     },
@@ -96,10 +75,10 @@ useEffect(()=>{
 
                 <p className="flex items-center text-white"><span className="font-semibold text-red-400  p-2">Type  :  </span> <span>{el.type}</span></p>
                 <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Capacity   :  </span> <span>{el.Capacity}</span></p>
-                <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Tipper Weight  :  </span> <span> {el.TipperWeight}</span></p>
+                <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Vehicale Weight  :  </span> <span> {el.TipperWeight}</span></p>
               
                 <p class="leading-relaxed text-white xs:text-sm">
-                *Weights mentioned are general & may vary from model to model. (Pl check during ordering)
+                *Weights are generaly & may vary from model to model. (Pl check during ordering)
                 </p>
               
               </div>

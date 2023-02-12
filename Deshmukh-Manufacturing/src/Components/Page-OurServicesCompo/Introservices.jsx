@@ -1,17 +1,27 @@
-import React from 'react'
-import backimg from "../Home/Homeintro/Vehicalintroimage.jpg"
-import "./introImage.css"
+import React from "react";
+import backimg from "./back2.jpg";
+import "./introImage.css";
 const Introservices = () => {
   return (
     <>
-    <div className="vehicalimg pt-20 xs:pt-28     ">
-   
-    </div>
-       <h1 className='left-72 absolute top-1/3 text-5xl  xs:top-1/3 underline xs:text-2xl xs:left-14 text-white font-semibold'>Our Products</h1>
-       {/* <span className="inline-block h-1 w-72  rounded xs:left-14 xs:top-56 bg-red-500 xs:w-28 left-72 absolute top-72 text-5xl text-white font-semibold"   
-          data-aos-anchor-placement="center-bottom"></span> */}
-       </>
-  )
-}
+      <section class="text-gray-600 body-font" data-aos="fade-up">
+        <div class=" px-2 pt-14 pb-14 xs:pt-20 mx-auto flex flex-col">
+          <div class="lg:w-4/6 xs:w-full mx-auto">
+            <div class="rounded-lg h-64 overflow-hidden xs:h-44 relative">
+              <img
+                alt="content"
+                class="object-cover object-center h-full w-full"
+                src={backimg}
+              />
+              <h2 className="text-black font-bold border-red-400 absolute px-4 xs:text-xl xs:left-1/4 xs:top-1/2 rounded-lg border-2 top-1/3 left-1/3 text-4xl">
+                Our Products
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
 
-export default Introservices
+export default Introservices;

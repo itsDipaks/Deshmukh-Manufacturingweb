@@ -1,14 +1,9 @@
 import React, { useEffect } from "react";
 import Hslider from "../../Components/Home/Hslider";
 
+import Rocktipper1 from "../../assets/VehicalProducts/Rockbody/3.png"
 import Rocktipper2 from "../../assets/VehicalProducts/Rockbody/1.png"
-import Rocktipper3 from "../../assets/VehicalProducts/Rockbody/2.png"
-import Rocktipper4 from "../../assets/VehicalProducts/Rockbody/3.png"
-import Rocktipper5 from "../../assets/VehicalProducts/Rockbody/4.png"
-import Rocktipper6 from "../../assets/VehicalProducts/Rockbody/5.png"
-import Rocktipper7 from "../../assets/VehicalProducts/Rockbody/7.png"
-import Rocktipper8 from "../../assets/VehicalProducts/Rockbody/9.png"
-import Rocktipper9 from "../../assets/VehicalProducts/Rockbody/10.png"
+import Rocktipper3 from "../../assets/VehicalProducts/Rockbody/Rockbody5.png"
 import "./SubProducts.css";
 const RockTipper = () => {
   const ScrolltoTop = () => {
@@ -24,24 +19,15 @@ useEffect(()=>{
         {
           imgdata: [
             {
-              url:Rocktipper6,
+              url:Rocktipper1,
             },
-            {
-              url:Rocktipper5,
-            },
-            {
-              url:Rocktipper4,
-            },
-            {
-              url:Rocktipper2,
-            },
-            
+           
            
           ],
         },
       ],
       type:"Rock Body",
-      Capacity:"14  Cu Mtr",
+      Capacity:"10  Cu Mtr",
       TipperWeight:"4.95 Ton*"
 
     },
@@ -51,16 +37,7 @@ useEffect(()=>{
         {
           imgdata: [
             {
-              url:Rocktipper9,
-            },
-            {
-              url:Rocktipper3,
-            },
-            {
-              url:Rocktipper6,
-            },
-            {
-              url:Rocktipper5,
+              url:Rocktipper2,
             },
             
            
@@ -68,7 +45,7 @@ useEffect(()=>{
         },
       ],
       type:"Rock Body",
-      Capacity:"16 Cu Mtr",
+      Capacity:"14 Cu Mtr",
       TipperWeight:"4.75 Ton*"
 
     },
@@ -78,79 +55,15 @@ useEffect(()=>{
         {
           imgdata: [
             {
-              url:Rocktipper8,
-            },
-            {
-              url:Rocktipper2,
-            },
-            {
-              url:Rocktipper6,
-            },
-            {
-              url:Rocktipper4,
+              url:Rocktipper3,
             },
             
-           
           ],
         },
       ],
       type:"Rock Body",
-      Capacity:"18 Cu Mtr",
+      Capacity:"16 Cu Mtr",
       TipperWeight:"5.68 Ton*"
-
-    },
-    {
-      title: "Rock Body Tipper",
-      data: [
-        {
-          imgdata: [
-            {
-              url:Rocktipper4,
-            },
-            {
-              url:Rocktipper7,
-            },
-            {
-              url:Rocktipper5,
-            },
-            {
-              url:Rocktipper2,
-            },
-            
-           
-          ],
-        },
-      ],
-      type:"Rock Body",
-      Capacity:"19.5 Cu Mtr",
-      TipperWeight:"6.314 Ton*"
-
-    },
-    {
-      title: "Rock Body Tipper",
-      data: [
-        {
-          imgdata: [
-            {
-              url:Rocktipper2,
-            },
-            {
-              url:Rocktipper7,
-            },
-            {
-              url:Rocktipper5,
-            },
-            {
-              url:Rocktipper2,
-            },
-            
-           
-          ],
-        },
-      ],
-      type:"Rock Body",
-      Capacity:"23.6 Cu Mtr",
-      TipperWeight:"7.95 Ton*"
 
     },
 
@@ -179,10 +92,10 @@ useEffect(()=>{
 
                 <p data-aos="fade-up" className="flex items-center text-white"><span className="font-semibold text-red-400  p-2">Type  :  </span> <span>{el.type}</span></p>
                 <p data-aos="fade-up" className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Capacity   :  </span> <span>{el.Capacity}</span></p>
-                <p data-aos="fade-up" className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Tipper Weight  :  </span> <span> {el.TipperWeight}</span></p>
+                {/* <p data-aos="fade-up" className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Tipper Weight  :  </span> <span> {el.TipperWeight}</span></p> */}
               
                 <p data-aos="fade-up" class="leading-relaxed text-white xs:text-sm">
-                *Weights mentioned are general & may vary from model to model. (Pl check during ordering)
+                *Weights are generaly & may vary from model to model. (Pl check during ordering)
                 </p>
               
               </div>

@@ -10,13 +10,13 @@ const Displaynumber = () => {
               {" "}
               <div class="p-1 lg:w-auto w-1/2 xs:w-full md:w-full">
                 <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-4 xs:p-2 sm:flex-row ">
-                  <div class="w-16 h-16 xs:w-10 xs:h-10 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 flex-shrink-0">
+                  <div class="w-16 h-16 xs:w-10 xs:h-10 sm:mr-8 sm:mb-0 mb-4  inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 flex-shrink-0">
                     <IoIosCall className="w-54 " />
                   </div>
-                  <div class="flex-grow xs:ml-4">
-                    <h2 class="text-white text-lg title-font font-medium mb-3 xs:mb-1 xs:text-lg">
+                  <div class="flex-grow xs:ml-2">
+                    <h3 class="text-white text-lg title-font font-medium mb-3 xs:mb-1 xs:text-sm">
                       Shubham Deshmukh
-                    </h2>
+                    </h3>
                     <p class="leading-relaxed text-base">+91 8180060462</p>
                   </div>
                 </div>
@@ -29,10 +29,10 @@ const Displaynumber = () => {
                   <div class="w-16 h-16 xs:w-10 xs:h-10 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 flex-shrink-0">
                     <IoIosCall className="w-44 " />
                   </div>
-                  <div class="flex-grow xs:ml-4">
-                    <h2 class="text-white text-lg title-font font-medium mb-3 xs:mb-1 xs:text-lg">
+                  <div class="flex-grow xs:ml-2">
+                    <h3 class="text-white text-lg title-font font-medium mb-3 xs:mb-1 xs:text-sm ">
                       Mukesh Deshmukh
-                    </h2>
+                    </h3>
                     <p class="leading-relaxed text-base">+91 9923375826</p>
                   </div>
                 </div>

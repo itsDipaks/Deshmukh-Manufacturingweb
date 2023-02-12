@@ -5,10 +5,8 @@
 import React, { useEffect } from "react";
 import Hslider from "../../Components/Home/Hslider";
 
-import Bulkar1 from "../../assets/VehicalProducts/Bulker/rigid-bulker 1.jpg"
-import Bulkar2 from "../../assets/VehicalProducts/Bulker/bulker2.jpg"
-import Bulkar3 from "../../assets/VehicalProducts/Bulker/Bulker4.jpg"
-import Bulkar4 from "../../assets/VehicalProducts/Bulker/Bulker3.jpg"
+import Bulkar1 from "../../assets/VehicalProducts/Bulker/rigid-bulker2.jpg"
+import Bulkar2 from "../../assets/VehicalProducts/Bulker/Bulker3.jpg"
 import "./SubProducts.css";
 const BulkerProducts = () => {
   const ScrolltoTop = () => {
@@ -24,16 +22,7 @@ useEffect(()=>{
         {
           imgdata: [
             {
-              url:Bulkar3,
-            },
-            {
-              url:Bulkar2,
-            },
-            {
-              url:Bulkar3,
-            },
-            {
-              url:Bulkar4,
+              url:Bulkar1,
             },
             
            
@@ -51,18 +40,9 @@ useEffect(()=>{
         {
           imgdata: [
             {
-              url:Bulkar1,
-            },
-            {
-              url:Bulkar1,
-            },
-            {
               url:Bulkar2,
             },
-            {
-              url:Bulkar4,
-            },
-            
+         
            
           ],
         },
@@ -72,61 +52,7 @@ useEffect(()=>{
       TipperWeight:"25 Ton*"
 
     },
-    {
-      title: "Rigid Bulker",
-      data: [
-        {
-          imgdata: [
-            {
-              url:Bulkar4,
-            },
-            {
-              url:Bulkar3,
-            },
-            {
-              url:Bulkar1,
-            },
-            {
-              url:Bulkar2,
-            },
-            
-           
-          ],
-        },
-      ],
-      type:"Bulker Body",
-      Capacity:"25 Cu Mtr",
-      TipperWeight:"37 Ton*"
-
-    },
-    {
-      title: "Rigid Bulker",
-      data: [
-        {
-          imgdata: [
-            {
-              url:Bulkar2,
-            },
-            {
-              url:Bulkar3,
-            },
-            {
-              url:Bulkar3,
-            },
-            {
-              url:Bulkar1,
-            },
-            
-           
-          ],
-        },
-      ],
-      type:"Bulker Body",
-      Capacity:"27 Cu Mtr",
-      TipperWeight:"4.17 Ton*"
-
-    },
-
+  
    
   ];
 
@@ -152,7 +78,7 @@ useEffect(()=>{
 
                 <p className="flex items-center text-white"><span className="font-semibold text-red-400  p-2">Type  :  </span> <span>{el.type}</span></p>
                 <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Capacity   :  </span> <span>{el.Capacity}</span></p>
-                <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Gross Vehicle Weight (GVW)  :  </span> <span> {el.TipperWeight}</span></p>
+                {/* <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Gross Vehicle Weight (GVW)  :  </span> <span> {el.TipperWeight}</span></p> */}
               
                 <p class="leading-relaxed text-white xs:text-sm">
                 *When coupled with suitable chassis, Weights mentioned are as per RTO Rules & actual may vary from model to model.

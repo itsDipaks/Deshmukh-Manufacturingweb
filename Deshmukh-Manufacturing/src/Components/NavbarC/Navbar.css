@@ -23,3 +23,24 @@ box-sizing: border-box;
 .lists:hover{
     background-color: black;
 }
+.logo{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(9, 9, 9, 0.22) 0px 15px 12px;
+    animation: textani 2s linear forwards;
+}
+
+@keyframes textani{
+    0%{
+opacity: 0;
+transform: rotateY(180deg);
+filter: blur(1px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+        animation-delay: 1s;
+    }
+}

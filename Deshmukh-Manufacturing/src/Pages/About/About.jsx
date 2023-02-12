@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import Aboutintro from "../../Components/Page-AboutCompo/Aboutintro";
 import Listingdata from "../../Components/Page-AboutCompo/Listingdata";
 import Content from "../../Components/Page-AboutCompo/Content";
@@ -7,13 +7,16 @@ const About = () => {
   const ScrolltoTop = () => {
     window.scrollTo({top: 0, left: 0, behavior: "smooth"});
   };
-useEffect(()=>{
-  ScrolltoTop()
-})
+  useEffect(() => {
+    ScrolltoTop();
+  });
   const Basicdata = [
     {title: "Nature of Business", info: "Manufacturer"},
     {title: "Director", info: "Mukesh Deshmukh"},
-    {title: "Registered Address", info: "K-5 , MIDC , Sinnar , Dist.Nashik (422113)"},
+    {
+      title: "Registered Address",
+      info: "K-5 , MIDC , Sinnar , Dist.Nashik (422113) Maharashtra",
+    },
     {title: "Total Number of Employees", info: "17"},
     {title: "Year of Establishment", info: "2007"},
     {

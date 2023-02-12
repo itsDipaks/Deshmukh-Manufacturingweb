@@ -1,7 +1,7 @@
 .iconbox{
     position: fixed;
 bottom:5rem;
-left:2rem;
+left:3rem;
 
 }
 .whatsappimg{
@@ -16,7 +16,7 @@ left:2rem;
     .iconbox{
         position: fixed;
     bottom:2rem;
-    left:1rem;
+    left:2rem;
     }
     .whatsappimg{
         width: 50px;

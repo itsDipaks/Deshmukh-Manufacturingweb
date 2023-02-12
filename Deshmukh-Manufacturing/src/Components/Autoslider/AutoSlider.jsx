@@ -1,10 +1,15 @@
 import React from 'react'
 import "./AutoSlider.css"
 import Rocktippr from "../../assets/VehicalProducts/Rockbody/rockbody2.png"
-import boxtipper from "../../assets/VehicalProducts/BoxBodytipper/Boxbody2.jpg"
+import Rocktippr2 from "../../assets/VehicalProducts/Rockbody/Rockbody3.jpg"
+import Rocktippr3 from "../../assets/VehicalProducts/Rockbody/Rockbody4.jpg"
+import boxtipper from "../../assets/VehicalProducts/BoxBodytipper/box4.jpg"
+import boxtipper2 from "../../assets/VehicalProducts/BoxBodytipper/box5.png"
+import boxtipper3 from "../../assets/VehicalProducts/BoxBodytipper/box6.png"
 import Bulker from "../../assets/VehicalProducts/Bulker/Bulker3.jpg"
-import Transitmixer from "../../assets/VehicalProducts/AutoSliderproducts/Transitmixier.webp"
-import tanker from "../../assets/VehicalProducts/AutoSliderproducts/Tanker.webp"
+import Bulker2 from "../../assets/VehicalProducts/Bulker/Bulker4.jpg"
+import Bulker3 from "../../assets/VehicalProducts/Bulker/Bulker5.jpg"
+import garbage from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HOPPER3.png"
 
 const AutoSlider = () => {
   return (
@@ -24,59 +29,44 @@ const AutoSlider = () => {
                 <img src={Bulker} alt="" />
                 <p>Bulker</p>
             </div>
-            <div className='slide'>
-                <img src={Transitmixer} alt="" />
-                <p>RMC Transit Mixer</p>
-            </div>
-            <div className='slide'>
-                <img src={tanker} alt="" />
-                <p>Water Tankers</p>
+            <div className='slide '>
+                <img  src={garbage} alt="" />
+                <p>Garbage</p>
             </div>
             <div className='slide '>
-                <img  src={Rocktippr} alt="" />
+                <img  src={Rocktippr2} alt="" />
                 <p>Rock Body Tipper</p>
             </div>
-           
+            
             <div className='slide'>
-                <img src={boxtipper} alt="" />
-
+                <img src={Bulker2} alt="" />
+                <p>Bulker</p>
+            </div>
+            <div className='slide'>
+                <img src={boxtipper2} alt="" />
                 <p>Box Body Tipper</p>
             </div>
             <div className='slide'>
                 <img src={Bulker} alt="" />
                 <p>Bulker</p>
             </div>
-            <div className='slide'>
-                <img src={Transitmixer} alt="" />
-                <p>RMC Transit Mixer</p>
-            </div>
-            <div className='slide'>
-                <img src={tanker} alt="" />
-                <p>Water Tankers</p>
-            </div>
             <div className='slide '>
-                <img  src={Rocktippr} alt="" />
-                <p>Rock Body Tipper</p>
+                <img  src={garbage} alt="" />
+                <p>Garbage</p>
             </div>
-           
             <div className='slide'>
-                <img src={boxtipper} alt="" />
+                <img src={boxtipper3} alt="" />
 
                 <p>Box Body Tipper</p>
             </div>
+            <div className='slide '>
+                <img  src={Rocktippr3} alt="" />
+                <p>Rock Body Tipper</p>
+            </div>
             <div className='slide'>
-                <img src={Bulker} alt="" />
+                <img src={Bulker3} alt="" />
                 <p>Bulker</p>
             </div>
-            <div className='slide'>
-                <img src={Transitmixer} alt="" />
-                <p>RMC Transit Mixer</p>
-            </div>
-            <div className='slide'>
-                <img src={tanker} alt="" />
-                <p>Water Tankers</p>
-            </div>
-          
         </div>
     </div>
   )

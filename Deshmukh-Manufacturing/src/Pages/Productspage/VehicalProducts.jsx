@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import Introservices from '../../Components/Page-OurServicesCompo/Introservices'
-import boxbody from "../../assets/VehicalProducts/BoxBodytipper/Boxbody2.jpg"
-import rocktipper from "../../assets/VehicalProducts/Rockbody/Rockbody1.jpg"
-import bulker from "../../assets/VehicalProducts/Bulker/Bulker2.jpg"
+import boxbody from "../../assets/VehicalProducts/Boxbody.png"
+import rocktipper from "../../assets/VehicalProducts/Rockbody/7.png"
+import bulker from "../../assets/VehicalProducts/Bulker/Bulker5.jpg"
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import StandardFeture from '../../Components/Page-OurServicesCompo/StandardFeture'
 import ContactToGet from '../../Components/QueteToContact/ContactToGet'
+import garbag from "../../assets/VehicalProducts/GarbagProducts/GARBAGE-HOPPER4.png"
 const VehicalProducts = () => {
     // const passdata = {
     //     introimg:pageintroimg
@@ -36,7 +37,7 @@ const VehicalProducts = () => {
         {
           id:3,
         productname:"Garbage Truck Body",
-        productimg:"https://5.imimg.com/data5/SELLER/Default/2022/6/WV/XR/PJ/25059261/hydraulic-refuse-compactor-1000x1000.jpg",
+        productimg:garbag,
         productdescription:"Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
         ,Linkto:"/garbagebody"
       },
@@ -52,7 +53,7 @@ const VehicalProducts = () => {
 
   return (
     <div >
-<div className='bg-black p-14 xs:pt-14 xs:p-2' data-aos="fade-up">
+<div className='bg-black pt-14 xs:pt-14 xs:p-2'>
 
 <Introservices  />
 </div>
@@ -66,11 +67,6 @@ const VehicalProducts = () => {
        <div className="p-6">
          <h1 className="title-font text-2xl font-serif text-white mb-5 mt-5 xs:text-xl tracking-wide font-semibold text-center">{el.productname}</h1>
          {/* <p className="leading-relaxed mb-3">{el.productdescription}</p> */}
-         {/* <a class="mt-3 text-red-500 inline-flex items-center cursor-pointer	">View Related Products
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2 cursor-pointer	" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a> */}
          <button className='p-1  text-sm m-auto ml-24 bg-red-400 text-black xs:w-1/2 xs:ml-14 xs:ml-0'> <Link to={el.Linkto} >View Products</Link> </button>
        </div> 
      </div>
@@ -84,9 +80,9 @@ const VehicalProducts = () => {
 </section>
 
 
-<div>
+<div className="w-full">
 
-  <StandardFeture/>
+  <StandardFeture />
 </div>
 
 

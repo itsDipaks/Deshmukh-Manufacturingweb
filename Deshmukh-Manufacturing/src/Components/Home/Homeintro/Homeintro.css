@@ -16,27 +16,25 @@ position: absolute;
 width: 100%;
 height: 100%;
 left: 0;
-background-color: rgb(0, 0, 0,0.45);
+background-color: rgb(0, 0, 0,0.25);
 }
 @keyframes change{
     0%{
         background-image: url(back1.jpg);
     }
-    20%{
+    25%{
         background-image: url(back5.jpg);
     }
-    40%{
-        background-image: url(back3.jpg);
+    50%{
+        background-image: url(back6.jpg);
     }
-    60%{
+    75%{
         background-image: url(back1.jpg);
     }
-    80%{
+    100%{
         background-image: url(back5.jpg);
     }
-    100%{
-        background-image: url(back3.jpg);
-    }
+   
 }
 
 /* .first-line{
@@ -81,7 +79,7 @@ background-color: rgb(0, 0, 0,0.45);
     @keyframes smokanimate{
         0%{
     opacity: 0;
-    transform: rotateY(180deg);
+    transform: rotateY(0deg);
     filter: blur(1px);
         }
         100%{
@@ -131,7 +129,7 @@ background-color: rgb(0, 0, 0,0.45);
     }
   
     .introbox{
-        height: 60vh;
+        height: 80vh;
     }
    
     .introbox{

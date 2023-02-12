@@ -2,7 +2,7 @@ import React from "react";
 import {Link, NavLink} from "react-router-dom";
 import "./Service.css";
 // import tipperbody from "../../assets/VehicalProducts/Boxbody.png"
-import tipper from "../../assets/VehicalProducts/Tipperbackgraund.jpg"
+import tipper from "../../assets/VehicalProducts/BoxBodytipper/Boxb.jpg"
 function Services() {
   let ServicesData = [
     {

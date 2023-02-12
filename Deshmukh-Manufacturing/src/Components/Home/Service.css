@@ -45,7 +45,7 @@
   height: 100%;
   transition: transform 1s;
   position: relative;
-  filter: contrast(70%) brightness(50%);
+  filter: contrast(70%) brightness(60%);
 }
 
 .service-img-div:hover img {

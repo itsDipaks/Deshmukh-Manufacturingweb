@@ -9,7 +9,7 @@ import BulkerProducts from '../Pages/SubProductsPages/BulkerProducts'
 import GarbagBodyTipper from '../Pages/SubProductsPages/Garbagebody'
 import RockTipper from '../Pages/SubProductsPages/RockTipper'
 import TipperProducts from '../Pages/SubProductsPages/TipperProducts'
-import ServicePage from '../Pages/SubProductsPages/TipperProducts'
+// import ServicePage from '../Pages/SubProductsPages/TipperProducts'
 
 const CombineRoutes = () => {
   return (
@@ -17,7 +17,7 @@ const CombineRoutes = () => {
       <Routes>
         <Route path='/' element={<Homepage/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/services' element={<ServicePage/>}/>
+        {/* <Route path='/services' element={<ServicePage/>}/> */}
         <Route path='/contact' element={<ContactPage/>}/>
         <Route path='/vehicalprod' element={<VehicalProducts/>}/>
 

@@ -1,15 +1,12 @@
 import React, { useEffect } from "react";
 import Hslider from "../../Components/Home/Hslider";
 
-import Boxtipper1 from "../../assets/VehicalProducts/BoxBodytipper/box2.png"
-import Boxtipper2 from "../../assets/VehicalProducts/BoxBodytipper/box 1.png"
-import Boxtipper3 from "../../assets/VehicalProducts/BoxBodytipper/box5.png"
-import Boxtipper4 from "../../assets/VehicalProducts/BoxBodytipper/box7.png"
-import Boxtipper5 from "../../assets/VehicalProducts/BoxBodytipper/box8.png"
-import Boxtipper6 from "../../assets/VehicalProducts/BoxBodytipper/box3.png"
-import Boxtipper7 from "../../assets/VehicalProducts/BoxBodytipper/box4.png"
-import Boxtipper8 from "../../assets/VehicalProducts/BoxBodytipper/box6.png"
-import Boxtipper9 from "../../assets/VehicalProducts/BoxBodytipper/Boxbody1.jpg"
+import Boxtipper2 from "../../assets/VehicalProducts/BoxBodytipper/box2.png"
+import Boxtipper1 from "../../assets/VehicalProducts/BoxBodytipper/box1.png"
+import Boxtipper5 from "../../assets/VehicalProducts/BoxBodytipper/box5.png"
+import Boxtipper3 from "../../assets/VehicalProducts/BoxBodytipper/box3.jpg"
+import Boxtipper7 from "../../assets/VehicalProducts/BoxBodytipper/box7.png"
+import Boxtipper6 from "../../assets/VehicalProducts/BoxBodytipper/box6.png"
 import "./SubProducts.css";
 const BoxTipper = () => {
   const ScrolltoTop = () => {
@@ -27,15 +24,26 @@ useEffect(()=>{
             {
               url:Boxtipper1,
             },
+         
+            
+           
+          ],
+        },
+      ],
+      type:"Box Body",
+      Capacity:"5.5 Cu Mtr",
+      TipperWeight:"2.172 Ton*"
+
+    },
+    {
+      title: "Box Body Tipper",
+      data: [
+        {
+          imgdata: [
             {
-              url:Boxtipper5,
+              url:Boxtipper2,
             },
-            {
-              url:Boxtipper8,
-            },
-            {
-              url:Boxtipper9,
-            },
+         
             
            
           ],
@@ -52,24 +60,15 @@ useEffect(()=>{
         {
           imgdata: [
             {
-              url:Boxtipper9,
+              url:Boxtipper3,
             },
-            {
-              url:Boxtipper5,
-            },
-            {
-              url:Boxtipper7,
-            },
-            {
-              url:Boxtipper6,
-            },
-            
+        
            
           ],
         },
       ],
       type:"Box Body",
-      Capacity:"16 Cu Mtr",
+      Capacity:"14 Cu Mtr",
       TipperWeight:"3.369 Ton*"
 
     },
@@ -79,24 +78,15 @@ useEffect(()=>{
         {
           imgdata: [
             {
-              url:Boxtipper3,
-            },
-            {
-              url:Boxtipper6,
-            },
-            {
               url:Boxtipper5,
             },
-            {
-              url:Boxtipper7,
-            },
-            
+           
            
           ],
         },
       ],
       type:"Box Body",
-      Capacity:"18 Cu Mtr",
+      Capacity:"16 Cu Mtr",
       TipperWeight:"4.596 Ton*"
 
     },
@@ -106,16 +96,7 @@ useEffect(()=>{
         {
           imgdata: [
             {
-              url:Boxtipper4,
-            },
-            {
               url:Boxtipper6,
-            },
-            {
-              url:Boxtipper7,
-            },
-            {
-              url:Boxtipper4,
             },
             
            
@@ -123,7 +104,25 @@ useEffect(()=>{
         },
       ],
       type:"Box Body",
-      Capacity:"22 Cu Mtr",
+      Capacity:"18 Cu Mtr",
+      TipperWeight:"4.17 Ton*"
+
+    },
+    {
+      title: "Box Body Tipper",
+      data: [
+        {
+          imgdata: [
+            {
+              url:Boxtipper7,
+            },
+            
+           
+          ],
+        },
+      ],
+      type:"Box Body",
+      Capacity:"20 Cu Mtr",
       TipperWeight:"4.17 Ton*"
 
     },
@@ -153,10 +152,10 @@ useEffect(()=>{
 
                 <p className="flex items-center text-white"><span className="font-semibold text-red-400  p-2">Type  :  </span> <span>{el.type}</span></p>
                 <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Capacity   :  </span> <span>{el.Capacity}</span></p>
-                <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Tipper Weight  :  </span> <span> {el.TipperWeight}</span></p>
+                {/* <p className="flex items-center text-white"><span className="font-semibold text-red-400 p-2">Tipper Weight  :  </span> <span> {el.TipperWeight}</span></p> */}
               
                 <p class="leading-relaxed text-white xs:text-sm">
-                *Weights mentioned are general & may vary from model to model. (Pl check during ordering)
+                *Weights are generaly & may vary from model to model. (Pl check during ordering)
                 </p>
               
               </div>
