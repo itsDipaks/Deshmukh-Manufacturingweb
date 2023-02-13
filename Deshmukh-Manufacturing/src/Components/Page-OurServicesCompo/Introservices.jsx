@@ -1,5 +1,6 @@
 import React from "react";
-import backimg from "./back2.jpg";
+import backimg from "../../assets/VehicalProducts/Bulker/save.jpg";
+// import backimg from "./back2.jpg";
 import "./introImage.css";
 const Introservices = () => {
   return (
@@ -13,7 +14,7 @@ const Introservices = () => {
                 class="object-cover object-center h-full w-full"
                 src={backimg}
               />
-              <h2 className="text-black font-bold border-red-400 absolute px-4 xs:text-xl xs:left-1/4 xs:top-1/2 rounded-lg border-2 top-1/3 left-1/3 text-4xl">
+              <h2 className="text-white font-bold border-red-400 absolute px-4 xs:text-xl xs:left-1/4 xs:top-1/3 rounded-lg border-2 top-1/3 left-1/3 text-4xl">
                 Our Products
               </h2>
             </div>

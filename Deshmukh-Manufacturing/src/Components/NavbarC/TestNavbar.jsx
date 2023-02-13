@@ -27,7 +27,7 @@ const TestNavbar = () => {
           }
         >
           <div className="flex md:flex-row flex-col py-2  ml-4 justify-between items-center md:items-start">
-            <img src={logo} className='w-14 logo' alt="v x" />
+            <img src={logo} className='w-16 logo' alt="v x" />
             {/* <h1 className=" py-1 text-2xl font-sans text-green-400 font-bold">
               DM
             </h1> */}

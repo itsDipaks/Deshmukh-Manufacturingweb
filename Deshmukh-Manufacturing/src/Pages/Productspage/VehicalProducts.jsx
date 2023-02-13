@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Introservices from '../../Components/Page-OurServicesCompo/Introservices'
 import boxbody from "../../assets/VehicalProducts/Boxbody.png"
 import rocktipper from "../../assets/VehicalProducts/Rockbody/7.png"
-import bulker from "../../assets/VehicalProducts/Bulker/Bulker5.jpg"
+import bulker from "../../assets/VehicalProducts/Bulker/bulkarback.jpg"
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import StandardFeture from '../../Components/Page-OurServicesCompo/StandardFeture'

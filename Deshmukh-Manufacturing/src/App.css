@@ -21,3 +21,16 @@ color: white;
     /* align-items: center; */
 
 }
+@media (250px<= width <=768px){
+
+
+    .loader{
+        /* display: flex; */
+        width: 100%;
+        padding-top: 80vh;
+        margin: auto;
+        /* justify-content: center; */
+        /* align-items: center; */
+    
+    }
+}

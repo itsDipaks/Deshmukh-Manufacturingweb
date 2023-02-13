@@ -7,6 +7,7 @@ import Hslider from "../../Components/Home/Hslider";
 
 import Bulkar1 from "../../assets/VehicalProducts/Bulker/rigid-bulker2.jpg"
 import Bulkar2 from "../../assets/VehicalProducts/Bulker/Bulker3.jpg"
+import Bulkar3 from "../../assets/VehicalProducts/Bulker/frontbulker.jpg"
 import "./SubProducts.css";
 const BulkerProducts = () => {
   const ScrolltoTop = () => {
@@ -22,6 +23,24 @@ useEffect(()=>{
         {
           imgdata: [
             {
+              url:Bulkar3,
+            },
+            
+           
+          ],
+        },
+      ],
+      type:"Bulker Body",
+      Capacity:"30 Cu Mtr",
+      TipperWeight:"31 Ton*"
+
+    },
+    {
+      title: "Rigid Bulker",
+      data: [
+        {
+          imgdata: [
+            {
               url:Bulkar1,
             },
             
@@ -30,7 +49,7 @@ useEffect(()=>{
         },
       ],
       type:"Bulker Body",
-      Capacity:"23 Cu Mtr",
+      Capacity:"35 Cu Mtr",
       TipperWeight:"31 Ton*"
 
     },
@@ -48,7 +67,7 @@ useEffect(()=>{
         },
       ],
       type:"Bulker Body",
-      Capacity:"25 Cu Mtr",
+      Capacity:"40 Cu Mtr",
       TipperWeight:"25 Ton*"
 
     },

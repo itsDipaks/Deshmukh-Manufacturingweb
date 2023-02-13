@@ -25,7 +25,7 @@ setloading(false)
       className="loader"
       color="#e94c4c"
         loading={loading}
-        size={60}
+        size={40}
         aria-label="Loading Spinner"
         data-testid="loader"
       />

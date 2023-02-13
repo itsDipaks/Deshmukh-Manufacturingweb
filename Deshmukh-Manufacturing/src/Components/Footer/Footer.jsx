@@ -93,7 +93,7 @@ const Footer = () => {
 
 
   <div className="bg-gray-800 ">
-    <div className=" mx-auto py-2 px-5 xs:px-1 flex flex-wrap flex-col xs:flex-row">
+    <div className=" m-auto py-2 px-96 xs:px-6 flex flex-wrap flex-col xs:flex-row">
       <p className="text-gray-500 text-xm text-center sm:text-left xs:text-sm text-white">@ Develope and created by Dipak Pawar 
         <a href="tel:+918600405446" rel="noopener noreferrer" className="font-bold" target="_blank"> @8600405446</a>
       </p>
